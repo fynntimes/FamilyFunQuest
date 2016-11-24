@@ -1,6 +1,6 @@
 <?php
 
-require 'backend/database.php';
+require 'backend/bootstrap.php';
 
 ?>
 <!doctype html>
