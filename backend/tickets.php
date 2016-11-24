@@ -23,13 +23,11 @@ function collect_customer_information($link, $name, $street, $town, $state, $zip
 {
 
     // Delete the row if it already exists
-    if ($result = mysqli_query($link, "DELETE FROM `customers` WHERE `name` = {$name}") === false) {
-        return false; // Deletion failure
-    }
+    mysqli_query($link, "DELETE FROM `customers` WHERE `name` = '{$name}'");
 
     // Insert the new customer's data
 
-    $query = "INSERT INTO `customers` (`name`, `street`, `town`, `state`, `zip_code`, `phone_number`, `email`) VALUES ({$name}, {$street}, {$town}, {$state}, {$zip_code}, {$phone}, {$email})";
+    $query = "INSERT INTO `customers` (`name`, `street`, `town`, `state`, `zip_code`, `phone_number`, `email`) VALUES ('{$name}', '{$street}', '{$town}', '{$state}', '{$zip_code}', '{$phone}', '{$email}')";
 
     $result = mysqli_query($link, $query);
 
