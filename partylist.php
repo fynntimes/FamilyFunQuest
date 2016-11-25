@@ -99,7 +99,7 @@ require 'backend/bootstrap.php';
             <li>Mix and match from 9 activities</li>
             <li>Enjoy the low price of $5 per guest</li>
         </ul>
-        <center><button href="#" type="button" class="success button">BOOK PARTY!</button></center>
+        <center><a class="button success" href="partybooking1.php">BOOK PARTY!</a></center>
     </div>
     <div class="small-12 medium-4 large-4 columns">
         <center><h2>Silver Package</h2></center>
@@ -115,8 +115,7 @@ require 'backend/bootstrap.php';
             <li>A free personalized birthday cake</li>
             <li>Better value for the money at only $10 per guest</li>
         </ul>
-        <center><button href="#" type="button" class="success button">BOOK PARTY!</button></center>
-
+        <center><a class="button success" href="partybooking1.php">BOOK PARTY!</a></center>
     </div>
     <div class="small-12 medium-4 large-4 columns">
         <center><h2>Gold Package</h2></center>
@@ -134,7 +133,7 @@ require 'backend/bootstrap.php';
             <li>Free pizza for all your guests</li>
             <li>Superior value for the money at only $15 per guest</li>
         </ul>
-        <center><button href="#" type="button" class="success button">BOOK PARTY!</button></center>
+        <center><a class="button success" href="partybooking1.php">BOOK PARTY!</a></center>
 
 
     </div>
