@@ -1,6 +1,7 @@
 <?php
 
 require 'backend/bootstrap.php';
+require "login/loginheader.php";
 
 ?>
 <!doctype html>
