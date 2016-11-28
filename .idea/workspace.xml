@@ -1,99 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="Update the template with the PHP bootstrap">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/eleganticons/ElegantIcons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/eleganticons/ElegantIcons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/eleganticons/ElegantIcons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome-4.1.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/android-chrome-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/android-chrome-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/apple-touch-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/apple-touch-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/mstile-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/mstile-310x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/mstile-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/guru-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/heart-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/weight-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/popup.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pricing1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pricing2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/table-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/table-2-hover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/table-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/table-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team-cover1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team-cover2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team-cover3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/team/team3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/et-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/owl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/eleganticons/ElegantIcons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/eleganticons/et-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome-4.1.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/Readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.onepagenav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/scrollnav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/typed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/typewriter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parties/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/hours.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snacks/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/email.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tickets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/master.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/what-input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nav.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/backend/parties.php" afterPath="$PROJECT_DIR$/activities/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/base-template.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FamilyFunQuest.iml" afterPath="$PROJECT_DIR$/.idea/FamilyFunQuest.iml" />
+    <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/images/screenshot-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/images/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/images/phpmailer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/images/phpmailer_mini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/wrapping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/FamilyFunQuest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/activitylist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/backend/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/backend/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/backend/email.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/backend/parties.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/backend/tickets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/css/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/css/foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/css/master.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/js/vendor/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/js/vendor/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/js/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/js/vendor/what-input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/checklogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/createuser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/dbconf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/globalcon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/dbconn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/globalconf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/loginform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/mailsender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/mysqlerrors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/newuserform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/respobj.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/selectemail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/includes/verify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/js/jquery-2.2.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/js/login.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/js/signup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/js/signup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/loginheader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/main_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/.scrutinizer.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/PHPMailerAutoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/class.phpmailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/class.phpmaileroauth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/class.phpmaileroauthgoogle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/class.pop3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/class.smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/Callback_function_notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/DomainKeys_notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/Note_for_SMTP_debugging.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/extending.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/generatedocs.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/pop3_article.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/code_generator.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/contents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/contentsutf8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/exceptions.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/gmail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/gmail_xoauth.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/mail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/mailing_list.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/pop_before_smtp.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/XRegExp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/send_file_upload.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/sendmail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/signed-mail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/smtp.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/smtp_check.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/smtp_no_auth.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/ssl_options.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeAppleScript.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeVisualStudio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/EasyPeasyICS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/htmlfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/ntlm_sasl_client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/get_oauth_token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-am.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-az.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-be.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-bg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-br.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ca.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-cz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-de.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-dk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-el.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-eo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-es.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-et.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-gl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-he.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-hr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-hu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-id.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-it.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ja.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ka.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ko.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-lt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-lv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-nl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-no.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-pl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-pt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ru.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-se.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-sk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-sl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-sr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-tr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-uk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-vi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-zh.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-zh_cn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/fakepopserver.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/fakesendmail.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/phpmailerLangTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/phpmailerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/runfakepopserver.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/test_callback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/test/testbootstrap-dist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/scripts/PHPMailer/travis.phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/login/verifyuser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/nav.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/partybooking1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/partybooking2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/partybooking3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/partylist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/ticketform.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -410,7 +506,7 @@
       <updated>1479943619433</updated>
       <workItem from="1479943642018" duration="4011000" />
       <workItem from="1480273901743" duration="12666000" />
-      <workItem from="1480342844928" duration="1067000" />
+      <workItem from="1480342844928" duration="1268000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -433,24 +529,31 @@
       <option name="project" value="LOCAL" />
       <updated>1479946131442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Brand new theme">
+      <created>1480343947740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1480343947740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17744000" />
+    <option name="totallyTimeSpent" value="17945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="991" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -475,10 +578,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Customer form updating" />
     <MESSAGE value="Fix slight backend query bug &#10;&#10;Quotes were missing for values in MySQL queries, causing the queries to fail." />
     <MESSAGE value="Update the template with the PHP bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the template with the PHP bootstrap" />
+    <MESSAGE value="Brand new theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brand new theme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -573,7 +678,7 @@
         <state relative-caret-position="750">
           <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#6#92#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,6 +738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
