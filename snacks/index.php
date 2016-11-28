@@ -42,17 +42,18 @@
 <div class="preloader">
     <img src="../img/loader.gif" alt="Preloader image">
 </div>
-<nav class="navbar navbar-fixed-top" style="position: fixed; top: 0px; margin-top: 0px; opacity: 1;">
+<nav class="navbar">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" data-active-url="../img/logo-active.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -70,9 +71,74 @@
     <!-- /.container-fluid -->
 </nav>
 
+<header id="top">
+    <div class="container">
+        <div class="table">
+            <div class="header-text">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 class="light white">Hungry? We've got a snack bar.</h3>
+                        <h1 class="white typed">Check out our menu.</h1>
+                        <span class="typed-cursor">|</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 <section class="section section-padded">
 
-    Content here
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+
+                <h2>Pizza</h2> 
+                <h4>$1.99 per slice</h4> 
+                <p>Enjoy a slice of this cheesy goodness and fuel up during your FunQuest. </p> 
+
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+
+                <h2>Hot Dogs</h2> 
+                <h4>$2.99 each, plus an additional $0.50 per topping</h4> 
+                <p>Before you sit down to munch on this classic American snack, make sure to fill it up with  some of our delicious toppings. </p> 
+            </div>
+            <div class="col-md-4 col-xs-12">
+
+                <h2>Nachos</h2> 
+                <h4>$5.99 per platter</h4> 
+                <p>Let your taste buds rejoice with seasoned crunchy nachos over melted cheese and jalapeños. Add free  toppings for an extra kick.</p> 
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+
+                <h2>Fries</h2> 
+                <h4>$3.99 per plate</h4>
+                 <p>Our crunchy fries are perfectly seasoned and ready to serve as a top-notch snack or side.</p>
+
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+
+                <h2>Macaroni and Cheese</h2>
+                 <h4>$3.99 per bowl</h4> 
+                <p>Soft pasta shells drenched in homemade cheese sauce- what could be better?</p> 
+
+            </div>
+            <div class="col-md-4 col-xs-12">
+
+                <h2>Walking Tacos</h2> 
+                <h4>$3.99 per bag</h4> 
+                <p>Who says you can't have tacos anywhere? Try our walking tacos- nacho chips with cheese, taco meat, lettuce, and tomatoes.</p> 
+
+            </div>
+        </div>
+    </div>
 
 </section>
 
@@ -80,7 +146,8 @@
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic, modified with permission by the group.</p>
+                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
+                    modified with permission by the group.</p>
             </div>
             <div class="col-sm-4 text-right text-center-mobile">
                 <ul class="social-footer">
@@ -106,6 +173,7 @@
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/scrollnav.js"></script>
 </body>
 
 </html>
