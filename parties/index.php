@@ -210,9 +210,10 @@
 
 <script src="../js/main.js"></script>
 <script type="text/javascript">
-    $(window).load(function () {
-        $('#modal1').modal('show');
-    });
+    // Debugging purposes
+//    $(window).load(function () {
+//        $('#modal1').modal('show');
+//    });
 
     $('#partydate').datepicker({
         format: "mm/dd/yyyy",
