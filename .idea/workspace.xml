@@ -2,166 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/checklogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/createuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/dbconf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/globalcon.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/images/screenshot-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/images/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/dbconn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/globalconf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/loginform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/mailsender.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/mysqlerrors.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/newuserform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/respobj.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/selectemail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/includes/verify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/js/jquery-2.2.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/js/login.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/js/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/js/signup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/js/signup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/loginheader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/main_login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/.scrutinizer.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/PHPMailerAutoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/class.phpmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/class.phpmaileroauth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/class.phpmaileroauthgoogle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/class.pop3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/class.smtp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/Callback_function_notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/DomainKeys_notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/Note_for_SMTP_debugging.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/extending.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/generatedocs.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/docs/pop3_article.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/code_generator.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/contents.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/contentsutf8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/exceptions.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/gmail.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/gmail_xoauth.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/images/phpmailer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/images/phpmailer_mini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/mail.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/mailing_list.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/pop_before_smtp.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/scripts/XRegExp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/scripts/shAutoloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/scripts/shBrushPhp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/scripts/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/scripts/shLegacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/send_file_upload.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/sendmail.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/signed-mail.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/smtp.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/smtp_check.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/smtp_no_auth.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/ssl_options.phps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreDjango.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreEclipse.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreEmacs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreFadeToGrey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreMDUltra.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreMidnight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shCoreRDark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeAppleScript.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeDjango.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeEclipse.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeEmacs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeFadeToGrey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeMDUltra.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeMidnight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeRDark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/shThemeVisualStudio.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/examples/styles/wrapping.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/extras/EasyPeasyICS.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/extras/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/extras/htmlfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/extras/ntlm_sasl_client.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/get_oauth_token.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-am.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-az.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-be.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-bg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-br.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ca.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-cz.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-de.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-dk.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-el.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-eo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-es.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-et.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-fa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-fi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-fo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-fr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-gl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-he.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-hr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-hu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-id.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-it.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ja.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ka.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ko.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-lt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-lv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-nl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-no.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-pl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-pt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ro.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-ru.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-se.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-sk.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-sl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-sr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-tr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-uk.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-vi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-zh.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/language/phpmailer.lang-zh_cn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/fakepopserver.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/fakesendmail.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/phpmailerLangTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/phpmailerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/runfakepopserver.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/test_callback.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/test/testbootstrap-dist.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/scripts/PHPMailer/travis.phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/verifyuser.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FamilyFunQuest.iml" afterPath="$PROJECT_DIR$/.idea/FamilyFunQuest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/images/screenshot-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/images/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/checklogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/createuser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/dbconf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/globalcon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/dbconn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/globalconf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/loginform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/mailsender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/mysqlerrors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/newuserform.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/respobj.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/selectemail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/includes/verify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/js/jquery-2.2.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/js/login.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/js/signup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/js/signup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/loginheader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/main_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/login/verifyuser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticketform.php" afterPath="$PROJECT_DIR$/ticketform.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -199,18 +72,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+            <state relative-caret-position="285">
+              <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/index.php">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account/login/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -219,9 +92,22 @@
       <file leaf-file-name="dbconf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account/login/dbconf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/account/login/includes/dbconn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <marker date="1480471669000" expanded="true" signature="798:1299" ph="CREATE TABLE... members" />
+                <marker date="1480471669000" expanded="true" signature="1302:1576" ph="CREATE TABLE... loginAttempts" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,26 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1036">
               <caret line="82" column="33" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verifyuser.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/account/login/verifyuser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/login/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -291,10 +157,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$USER_HOME$/Downloads/index (1).php" />
         <option value="$PROJECT_DIR$/snacks/index.php" />
-        <option value="$PROJECT_DIR$/account/login/includes/dbconn.php" />
-        <option value="$PROJECT_DIR$/account/login/dbconf.php" />
         <option value="$PROJECT_DIR$/activities/index.php" />
         <option value="$PROJECT_DIR$/account/login/config.php" />
+        <option value="$PROJECT_DIR$/account/login/dbconf.php" />
+        <option value="$PROJECT_DIR$/account/login/includes/dbconn.php" />
       </list>
     </option>
   </component>
@@ -406,11 +272,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailer" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,7 +370,7 @@
       <workItem from="1480342844928" duration="1417000" />
       <workItem from="1480344371055" duration="339000" />
       <workItem from="1480365615137" duration="3405000" />
-      <workItem from="1480469991627" duration="1268000" />
+      <workItem from="1480469991627" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -545,15 +407,22 @@
       <option name="project" value="LOCAL" />
       <updated>1480344152247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Git bug broke accounts">
+      <created>1480471471813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480471471813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23106000" />
+    <option name="totallyTimeSpent" value="23446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="991" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1920" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,7 +432,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -596,7 +465,8 @@
     <MESSAGE value="Update the template with the PHP bootstrap" />
     <MESSAGE value="Brand new theme" />
     <MESSAGE value="Push up the old themed code for reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push up the old themed code for reference" />
+    <MESSAGE value="Git bug broke accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git bug broke accounts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -844,53 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/login/includes/dbconn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <marker date="1480470472000" expanded="true" signature="855:1356" ph="CREATE TABLE... members" />
-            <marker date="1480470472000" expanded="true" signature="1359:1633" ph="CREATE TABLE... loginAttempts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/login/dbconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activities/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1036">
           <caret line="82" column="33" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/login/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -900,6 +727,49 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/login/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/login/dbconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/login/includes/dbconn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <marker date="1480471669000" expanded="true" signature="798:1299" ph="CREATE TABLE... members" />
+            <marker date="1480471669000" expanded="true" signature="1302:1576" ph="CREATE TABLE... loginAttempts" />
+          </folding>
         </state>
       </provider>
     </entry>
