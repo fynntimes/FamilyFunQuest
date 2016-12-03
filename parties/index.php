@@ -142,32 +142,39 @@
         <div class="modal-content modal-popup">
             <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
             <h3 class="white">Book Party</h3>
-            <form action="" class="popup-form">
+            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="get" class="popup-form">
+
                 <div class="dropdown">
-                    <button id="plan" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
+                    <button id="plan" name="plan" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                         Pricing Plan
                     </button>
                     <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="plan">
-                        <li class="animated lightSpeedIn"><a href="#">Bronze Package ($5 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Silver Package ($10 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Gold Package ($15 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('bronze');">Bronze Package ($5 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('silver');">Silver Package ($10 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('gold');">Gold Package ($15 per guest)</a></li>
                     </ul>
                 </div>
-                <input type="number" class="form-control form-white" placeholder="Number of Guests (up to 30)" min="1"
+                <input id="plan_hidden" type="hidden" name="plan" value="">
+
+                <input type="number" name="guests" class="form-control form-white" placeholder="Number of Guests (up to 30)" min="1"
                        max="30">
-                <input id="partydate" type="text" class="form-control form-white" placeholder="Choose a date">
+
+                <input id="partydate" name="date" type="text" class="form-control form-white" placeholder="Choose a date">
+
                 <div class="dropdown" id="partytime-container" style="display: none;">
-                    <button id="partytime" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
+                    <button id="partytime" name="time" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                         Choose a time
                     </button>
                     <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="partytime">
-                        <li class="animated lightSpeedIn"><a href="#">Bronze Package ($5 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Silver Package ($10 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Gold Package ($15 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('10a');">10:00a</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('11a');">11:00a</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('12p');">12:00p</a></li>
                     </ul>
                 </div>
+                <input id="time_hidden" type="hidden" name="time" value="">
+
                 <button type="submit" class="btn btn-submit">Submit</button>
             </form>
         </div>
@@ -223,6 +230,14 @@
         var date = e.date;
         $('#partytime-container').css('display', 'inherit');
     });
+
+    function setPlanValue(s) {
+        $('#plan_hidden').attr('value', s);
+    }
+
+    function setTimeValue(s) {
+        $('#time_hidden').attr('value', s);
+    }
 
     // TODO Functional time selector
 </script>
