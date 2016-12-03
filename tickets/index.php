@@ -35,7 +35,28 @@
     <link rel="stylesheet" type="text/css" href="../fonts/eleganticons/et-icons.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>
+      @media(min-width:527px) {
+          .container-fluid {
+              padding: 10px;
+              background-color: gainsboro;
+              margin: auto;
+              width: 60%;
+          }
 
+      }
+
+        p{
+            color:black;
+        }
+        @media (max-width:990px){
+            .form{
+                position:relative;
+                top:200px;
+            }
+        }
+
+    </style>
 </head>
 
 <body>
@@ -69,168 +90,39 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+<!-- <br><br><br><br><br><br><br><br><br> -->
 
-<section class="section section-padded">
+<section class="section section-padded form">
 
-    <div class="container">
+    <div class="container-fluid">
+        <form>
 
-        <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-            <fieldset>
-
-
-
-                <!-- Form Name -->
-                <legend>Order your tickets!</legend>
-
-                <!-- Text input-->
-
+            <div class="col-md-6">
                 <div class="form-group">
-                    <label class="col-md-4 control-label">First Name</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
-                        </div>
+
+                    <div class="col-xs-4">
+                        <label for="expiry" class="control-label">Children</label>
+                        <input type="text" class="form-control" placeholder="#">
+                    </div>
+
+                    <div class="col-xs-4">
+                        <label for="expiry" class="control-label">Seniors</label>
+                        <input type="text" class="form-control" placeholder="#">
+                    </div>
+
+                    <div class="col-xs-4">
+                        <label for="expiry" class="control-label">Adults</label>
+                        <input type="text" class="form-control" placeholder="#">
                     </div>
                 </div>
+            </div>
 
-                <!-- Text input-->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label" >Last Name</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Text input-->
-                <div class="form-group">
-                    <label class="col-md-4 control-label">E-Mail</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                            <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!--text input-->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Would you like to recieve promotional mail?</label>
-                    <div class="col-md-4">
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="hosting" value="yes" /> Yes
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="hosting" value="no" /> No
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Text input-->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Phone</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                            <input name="phone" placeholder="#" class="form-control" type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Text input-->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Credit Card</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                            <input name="Number" placeholder="#" class="form-control" type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Text input-->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Expiration Date</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                            <input name="Number" placeholder="month/day/year" class="form-control"  type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Text Input -->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Amount of tickets</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                            <input name="Number" placeholder="#" class="form-control"  type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Text input-->
-
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Zip Code</label>
-                    <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                            <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- radio checks -->
-                <div class="form-group">
-                    <label class="col-md-4 control-label">Did you double check your order?</label>
-                    <div class="col-md-4">
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="hosting" value="yes" /> Yes
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="hosting" value="no" /> No
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Success message -->
-                <div class="alert alert-success" role="alert" id="success_message"> <i class="glyphicon glyphicon-thumbs-up"></i> Once you submit your order you will recieve an email regarding the transaction.</div>
-
-
-
-                <!-- Button -->
-                <div class="form-group">
-                    <label class="col-md-4 control-label"></label>
-                    <div class="col-md-4">
-                        <button type="submit" <a href="#" class="button success expand">Submit</a></button>
-                    </div>
-                </div>
-
-            </fieldset>
-        </form>
-    </div><!-- /.container -->
+            <a class="btn btn-default" href="#" role="button">Submit</a>
+            </div>
+        <!-- /.container -->
 
 </section>
+
 
 <footer>
     <div class="container">
