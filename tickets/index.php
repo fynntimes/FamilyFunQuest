@@ -36,15 +36,15 @@
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <style>
-      @media(min-width:527px) {
-          .container-fluid {
-              padding: 10px;
-              background-color: gainsboro;
-              margin: auto;
-              width: 60%;
-          }
+        @media(min-width:527px) {
+            .container-fluid {
+                padding: 10px;
+                background-color: gainsboro;
+                margin: auto;
+                width: 60%;
+            }
 
-      }
+        }
 
         p{
             color:black;
@@ -118,8 +118,8 @@
             </div>
 
             <a class="btn btn-default" href="#" role="button">Submit</a>
-            </div>
-        <!-- /.container -->
+    </div>
+    <!-- /.container -->
 
 </section>
 

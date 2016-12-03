@@ -750,6 +750,10 @@ footer .social-footer li:hover a {
     transition: background-color 0.3s;
 }
 
+.has-error .form-white {
+    border: 2px solid rgb(169, 68, 66);
+}
+
 .form-control.form-white::-webkit-input-placeholder {
     /* WebKit browsers */
     color: #fff;
