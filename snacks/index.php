@@ -35,7 +35,13 @@
     <link rel="stylesheet" type="text/css" href="../fonts/eleganticons/et-icons.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>
 
+        .food img{
+            width:300px;
+            height:200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -89,10 +95,10 @@
 
 <section class="section section-padded">
 
-    <div class="container">
+    <div class="container food">
         <div class="row">
             <div class="col-md-4 col-xs-12">
-
+                <img class="pizza" src="https://c1.staticflickr.com/7/6110/6211931329_6e56b443de_b.jpg">
                 <h2>Pizza</h2> 
                 <h4>$1.99 per slice</h4> 
                 <p>Enjoy a slice of this cheesy goodness and fuel up during your FunQuest. </p> 
@@ -100,13 +106,13 @@
             </div>
 
             <div class="col-md-4 col-xs-12">
-
+                <img class="hotdog" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Hotdog_-_Evan_Swigart.jpg">
                 <h2>Hot Dogs</h2> 
                 <h4>$2.99 each, plus an additional $0.50 per topping</h4> 
                 <p>Before you sit down to munch on this classic American snack, make sure to fill it up with  some of our delicious toppings. </p> 
             </div>
             <div class="col-md-4 col-xs-12">
-
+                <img class="nachos" src="https://c1.staticflickr.com/5/4102/4803597185_48b758f467_b.jpg">
                 <h2>Nachos</h2> 
                 <h4>$5.99 per platter</h4> 
                 <p>Let your taste buds rejoice with seasoned crunchy nachos over melted cheese and jalapeños. Add free  toppings for an extra kick.</p> 
@@ -116,7 +122,7 @@
 
         <div class="row">
             <div class="col-md-4 col-xs-12">
-
+                <img class="fries" src="https://c2.staticflickr.com/8/7159/6728781569_a1bb8fefcc_b.jpg">
                 <h2>Fries</h2> 
                 <h4>$3.99 per plate</h4>
                  <p>Our crunchy fries are perfectly seasoned and ready to serve as a top-notch snack or side.</p>
@@ -124,14 +130,14 @@
             </div>
 
             <div class="col-md-4 col-xs-12">
-
+                <img src="https://c1.staticflickr.com/3/2947/15426457201_83a9f1b63d_b.jpg">
                 <h2>Macaroni and Cheese</h2>
                  <h4>$3.99 per bowl</h4> 
                 <p>Soft pasta shells drenched in homemade cheese sauce- what could be better?</p> 
 
             </div>
             <div class="col-md-4 col-xs-12">
-
+                <img src="https://c2.staticflickr.com/6/5148/5662960854_1659a03316_b.jpg">
                 <h2>Walking Tacos</h2> 
                 <h4>$3.99 per bag</h4> 
                 <p>Who says you can't have tacos anywhere? Try our walking tacos- nacho chips with cheese, taco meat, lettuce, and tomatoes.</p> 
