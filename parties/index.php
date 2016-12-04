@@ -42,7 +42,12 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-
+    <style>
+      .logo{
+          width:50px;
+          height:50px;
+      }
+    </style>
 </head>
 
 <body>
@@ -60,8 +65,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png"
-                                                  alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo" data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a> 
+
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
