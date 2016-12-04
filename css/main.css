@@ -110,13 +110,13 @@ ul.white-list li:before {
     margin-right: 15px;
     background: white;
 }
-
+/*Hey you idiot! BACKGROUND COVER HERE. Down below! LET'S GO! LOOK AT IT!*/
 header {
     position: relative;
     width: 100%;
     color: white;
     background: rgba(28, 36, 65, 0.93);
-    background: url('../img/header.jpg');
+    background: url('../img/BlueFusion_Ballocity-2.png');
     background-size: cover;
 }
 
@@ -325,7 +325,7 @@ section {
 }
 
 .intro-table-first {
-    background-image: url('../img/table-1.jpg');
+    background-image: url('../img/comein.png');
 }
 
 .intro-table-hover {
@@ -347,7 +347,7 @@ section {
 }
 
 .intro-table-third {
-    background-image: url('../img/table-3.jpg');
+    background-image: url('../img/KidsPartyRentals.png');
 }
 
 .intro-table-hover .expand {
