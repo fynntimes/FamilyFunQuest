@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +41,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+            <state relative-caret-position="198">
+              <caret line="291" column="108" selection-start-line="291" selection-start-column="108" selection-end-line="291" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -182,11 +183,11 @@
         <option value="$PROJECT_DIR$/about/index.php" />
         <option value="$PROJECT_DIR$/account/login/signup.php" />
         <option value="$PROJECT_DIR$/account/login/main_login.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/tickets/ticketconf.php" />
         <option value="$PROJECT_DIR$/tickets/index.php" />
         <option value="$PROJECT_DIR$/activities/index.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -462,7 +463,7 @@
       <workItem from="1480365615137" duration="3405000" />
       <workItem from="1480469991627" duration="1608000" />
       <workItem from="1480775105420" duration="13962000" />
-      <workItem from="1480880760092" duration="4561000" />
+      <workItem from="1480880760092" duration="5423000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -534,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480885403852</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="...">
+      <created>1480885421931</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1480885421931</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41969000" />
+    <option name="totallyTimeSpent" value="42831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -589,7 +597,8 @@
     <MESSAGE value="Git bug broke accounts" />
     <MESSAGE value="Started to revise tickets form. &#10;&#10;Started to revise account creation form." />
     <MESSAGE value="Resized all images and fixed descriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resized all images and fixed descriptions" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -890,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        <state relative-caret-position="198">
+          <caret line="291" column="108" selection-start-line="291" selection-start-column="108" selection-end-line="291" selection-end-column="108" />
           <folding />
         </state>
       </provider>

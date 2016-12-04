@@ -289,7 +289,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/heart-blue.png" alt="" class="icon">
+                        <img src="http://images.telegiz.com/data/thumbs/full/4518/600/0/0/0/jogging-icon.jpg" alt="" class="icon">
                     </div>
                     <h4 class="heading">Activities</h4>
                     <p class="description">From our International Arcade to our Everest Mountain Climbing, we provide
@@ -303,7 +303,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/guru-blue.png" alt="" class="icon">
+                        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/98497-200.png" alt="" class="icon">
                     </div>
                     <h4 class="heading">Parties</h4>
                     <p class="description">Get discounted admission and a pizza party for your guests on your child's
@@ -316,7 +316,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/weight-blue.png" alt="" class="icon">
+                        <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-007bcbfbd7c9d2c7d7b4b021ee745e22.png" alt="" class="icon">
                     </div>
                     <h4 class="heading">Snack Bar</h4>
                     <p class="description">Stomach growling? Satisfy your appetite with food from our tasty snack bar.
