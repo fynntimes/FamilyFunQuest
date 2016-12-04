@@ -131,7 +131,7 @@
                 <center><img src="http://www.portofinoinnanaheim.com/img/slides/anaheim-ice1.jpg"width="350" height="200"></center>
                 <center><h3>Polar skating</h3></center>
                  <center><p>Slide around on the ice caps!</p></center>
-                 <button type="button" class="btn btn-blue">Link</button>
+                 <center><button type="button" class="btn btn-blue">Book your tickets!</button></center>
             </div>
         </div>
     </div>
