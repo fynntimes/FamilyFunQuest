@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activities/index.php" afterPath="$PROJECT_DIR$/activities/index.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="293" column="18" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
+              <caret line="298" column="18" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#center#3;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -54,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="664" column="51" selection-start-line="664" selection-start-column="51" selection-end-line="664" selection-end-column="51" />
+              <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -83,8 +82,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tickets/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,8 +122,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parties/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3498">
-              <caret line="159" column="86" selection-start-line="158" selection-start-column="15" selection-end-line="159" selection-end-column="86" />
+            <state relative-caret-position="3718">
+              <caret line="169" column="76" selection-start-line="169" selection-start-column="76" selection-end-line="169" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -411,10 +410,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/FamilyFunQuest.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/account/login/config.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/account/login/createuser.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/account/login/includes/newuserform.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/account/login/js/signup.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/account/login/main_login.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/account/login/signup.php</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/css/main.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/snacks/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/parties/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets/index.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -422,11 +427,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/BlueFusion_Ballocity-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/KidsPartyRentals.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/comein.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/il_fullxfull.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/the-best-games-around.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/compass_rose_bw_144247.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/compass_rose_bw_1442472.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/parsley.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/php/database.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -434,6 +438,193 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/FamilyFunQuest.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/copyright/profiles_settings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/dataSources.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/sqldialects.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/activitylist.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/backend/bootstrap.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/backend/database.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/backend/email.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/backend/parties.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/backend/tickets.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/css/app.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/css/foundation.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/css/foundation.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/css/master.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/footer.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/js/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/js/vendor/foundation.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/js/vendor/foundation.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/js/vendor/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/js/vendor/what-input.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/checklogin.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/config.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/createuser.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/dbconf.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/globalcon.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/images/ajax-loader.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/images/screenshot-small.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/images/screenshot.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/dbconn.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/functions.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/globalconf.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/loginform.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/mailsender.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/mysqlerrors.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/newuserform.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/respobj.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/selectemail.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/includes/verify.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/js/jquery-2.2.4.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/js/login.coffee</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/js/login.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/js/signup.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/js/signup.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/loginheader.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/logout.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/main_login.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/.scrutinizer.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/PHPMailerAutoload.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/VERSION</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/changelog.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/class.phpmailer.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/class.phpmaileroauth.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/class.phpmaileroauthgoogle.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/class.pop3.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/class.smtp.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/composer.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/composer.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/Callback_function_notes.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/DomainKeys_notes.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/Note_for_SMTP_debugging.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/extending.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/faq.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/generatedocs.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/docs/pop3_article.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/code_generator.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/contents.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/contentsutf8.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/exceptions.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/gmail.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/gmail_xoauth.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/images/phpmailer.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/images/phpmailer_mini.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/mail.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/mailing_list.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/pop_before_smtp.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/XRegExp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shAutoloader.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shBrushPhp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shCore.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/scripts/shLegacy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/send_file_upload.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/sendmail.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/signed-mail.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/smtp.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/smtp_check.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/smtp_no_auth.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/ssl_options.phps</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCore.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreDefault.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreDjango.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreEclipse.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreEmacs.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreFadeToGrey.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreMDUltra.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreMidnight.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shCoreRDark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeAppleScript.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeDefault.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeDjango.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeEclipse.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeEmacs.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeFadeToGrey.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeMDUltra.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeMidnight.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeRDark.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/shThemeVisualStudio.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/examples/styles/wrapping.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/EasyPeasyICS.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/htmlfilter.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/extras/ntlm_sasl_client.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/get_oauth_token.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-am.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ar.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-az.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-be.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-bg.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-br.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ca.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ch.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-cz.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-de.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-dk.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-el.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-eo.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-es.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-et.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fa.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fi.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fo.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-fr.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-gl.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-he.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-hr.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-hu.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-id.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-it.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ja.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ka.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ko.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-lt.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-lv.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ms.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-nl.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-no.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-pl.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-pt.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ro.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-ru.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-se.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-sk.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-sl.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-sr.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-tr.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-uk.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-vi.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-zh.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/language/phpmailer.lang-zh_cn.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/bootstrap.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/fakepopserver.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/fakesendmail.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/phpmailerLangTest.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/phpmailerTest.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/runfakepopserver.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/test_callback.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/test/testbootstrap-dist.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/scripts/PHPMailer/travis.phpunit.xml.dist</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/signup.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/login/verifyuser.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/nav.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/partybooking1.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/partybooking2.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/partybooking3.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/partylist.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/old/ticketform.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -583,7 +774,7 @@
       <workItem from="1480365615137" duration="3405000" />
       <workItem from="1480469991627" duration="1608000" />
       <workItem from="1480775105420" duration="13962000" />
-      <workItem from="1480880760092" duration="7201000" />
+      <workItem from="1480880760092" duration="7243000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -697,21 +888,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480886522790</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="...">
+      <created>1480888817673</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1480888817673</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44609000" />
+    <option name="totallyTimeSpent" value="44651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16058002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46048632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -985,8 +1183,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parties/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="159" column="86" selection-start-line="158" selection-start-column="15" selection-end-line="159" selection-end-column="86" />
+        <state relative-caret-position="3718">
+          <caret line="169" column="76" selection-start-line="169" selection-start-column="76" selection-end-line="169" selection-end-column="76" />
           <folding />
         </state>
       </provider>
@@ -1018,7 +1216,7 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="664" column="51" selection-start-line="664" selection-start-column="51" selection-end-line="664" selection-end-column="51" />
+          <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1034,7 +1232,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="293" column="18" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
+          <caret line="298" column="18" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#center#3;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1043,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding />
         </state>
       </provider>
