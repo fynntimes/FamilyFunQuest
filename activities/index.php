@@ -77,51 +77,59 @@
     <!-- TODO Implement intro tables for activity list [NEW THEME] -->
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 1</p>
-
+        <div class="row" >
+            <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://farm5.staticflickr.com/4139/4906597504_d3d1ee9274.jpg" width="400" height="250"></center>
+                <center><p>International Arcade</p></center>
+                <center><p>An arcade with games from countries around the world</p></center>
             </div>
 
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 2</p>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://www.amerizyn.com/images/product_images/in-out-jungleadv_lg.jpg" width="400" height="250"></center>
+                <center><p>Jungle Jump</p></center>
+                 <center><p>Get wild and jump around!</p></center>
             </div>
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 3</p>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://www.lmc.edu/_images/column-images/outdoor1.jpg" width="400" height="250"></center>
+                <center><p>Everest Mountain Climb</p></center>
+                 <center><p>Rock climbing with a mountain theme</p></center>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 4</p>
+        <div class="row" >
+            <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://www.themeparkreview.com/forum/files/iaapa69_331.jpg" width="400" height="250"></center>
+                <center><p>Wild Drop Tower</p></center>
+                <center><p>Jungle-themed speed drop tower</p></center>
             </div>
 
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 5</p>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://unitedsocialsports.com/wp-content/uploads/2016/04/skee-ball.jpg" width="400" height="250"></center>
+                <center><p>Antarctic Skee Ball</p></center>
+                 <center><p>Arctic themed game</p></center>
             </div>
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 6</p>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://www.1001-votes.com/vote/1234fonds/flous-1327183861959-u.jpg" width="400" height="250"></center>
+                <center><p>Gold Rush</p></center>
+                 <center><p>You and a group of miners venture off to get the most amount of gold!</p></center>
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 7</p>
+        <div class="row" >
+            <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="https://c1.staticflickr.com/1/254/521815653_05fbcd21f0.jpg" width="400" height="250"></center>
+                <center><p>Treasure Island</p></center>
+                <center><p>Deep sea themed ball pit</p></center>
             </div>
 
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 8</p>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://www.richardsonadventurefarm.com/-Images/_ResponsiveSite/_FormPhotos/CornMaze.jpg" width="400" height="250"></center>
+                <center><p>Maize Maze</p></center>
+                 <center><p>Find your way out of a labyrinth of corn!</p></center>
             </div>
-            <div class="col-md-4 col-xs-12">
-                <img src="http://placehold.it/350x150">
-                <p>Activity 9</p>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+                <center><img src="http://www.portofinoinnanaheim.com/img/slides/anaheim-ice1.jpg"width="400" height="250"></center>
+                <center><p>Polar skating</p></center>
+                 <center><p>Slide around on the ice caps!</p></center>
             </div>
         </div>
     </div>
