@@ -35,15 +35,11 @@
     <link rel="stylesheet" type="text/css" href="../fonts/eleganticons/et-icons.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <!-- Datepicker -->
-    <link rel="stylesheet" type="text/css"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
     <style>
-      @media(min-width:527px) {
+        @media(min-width:527px) {
 
 
-      }
-
+        }
 
         p{
             color:black;
@@ -55,7 +51,9 @@
             }
 
         }
-
+        .conf{
+            color:grey;
+        }
     </style>
 </head>
 
@@ -96,38 +94,12 @@
     <div class="container-fluid">
         <form>
 
-            <center><div class="col-md-12">
-                <div class="form-group">
-                    <center><h1>Book Your Tickets</h1></center>
-                    <div class="col-xs-4">
-                        <label for="expiry" class="control-label">Children</label>
-                        <input type="text" class="form-control" placeholder="#">
-                    </div>
-
-                    <div class="col-xs-4">
-                        <label for="expiry" class="control-label">Seniors</label>
-                        <input type="text" class="form-control" placeholder="#">
-                    </div>
-
-                    <div class="col-xs-4">
-                        <label for="expiry" class="control-label">Adults</label>
-                        <input type="text" class="form-control" placeholder="#">
-                    </div>
-
-                    <input id="partydate" type="text" class="form-control form-white" placeholder="Choose a date">
-                    <div class="dropdown" id="partytime-container" style="display: none;"> </div>
-                        <center>
-                        <a href="ticketconf.php"><button type="button"  class="btn btn-blue">Confirm</button></a>
-                    </center>
-                </div>
-                </div></center>
-        </form>
-    </div>
-</section>
+            <center><h1>Thank You!</h1></center>
+            <center><h4 class="conf">Your tickets have been booked. We'll see you on [DATE].</h4></center>
 
 
     </div></section>
-        <!-- /.container -->
+<!-- /.container -->
 
 </section>
 
@@ -162,9 +134,13 @@
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
 <script src="../js/main.js"></script>
-<script src="../https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
-<script src="../https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
-
 </body>
 
 </html>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: imrandharamsi
+ * Date: 12/3/16
+ * Time: 8:46 PM
+ */
