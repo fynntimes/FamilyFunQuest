@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -142,32 +146,50 @@
         <div class="modal-content modal-popup">
             <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
             <h3 class="white">Book Party</h3>
-            <form action="" class="popup-form">
-                <div class="dropdown">
-                    <button id="plan" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="popup-form" id="form">
+
+                <div class="form-group dropdown">
+                    <button id="plan" name="plan" class="form-control form-white dropdown" type="button"
+                            data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                         Pricing Plan
                     </button>
                     <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="plan">
-                        <li class="animated lightSpeedIn"><a href="#">Bronze Package ($5 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Silver Package ($10 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Gold Package ($15 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('bronze');">Bronze Package
+                                ($5 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('silver');">Silver Package
+                                ($10 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('gold');">Gold Package ($15
+                                per guest)</a></li>
                     </ul>
+                    <input id="plan_hidden" type="hidden" name="plan" value="" data-parsley-required="true">
                 </div>
-                <input type="number" class="form-control form-white" placeholder="Number of Guests (up to 30)" min="1"
-                       max="30">
-                <input id="partydate" type="text" class="form-control form-white" placeholder="Choose a date">
-                <div class="dropdown" id="partytime-container" style="display: none;">
-                    <button id="partytime" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
+
+                <div class="form-group">
+                    <input type="number" name="guests" class="form-control form-white"
+                           placeholder="Number of Guests (up to 30)" min="1"
+                           max="30" data-parsley-type="number" data-parsley-required="true">
+                </div>
+
+                <div class="form-group">
+                    <input id="partydate" name="date" type="text" class="form-control form-white"
+                           placeholder="Choose a date" data-parsley-required="true">
+                </div>
+
+                <div class="form-group dropdown" id="partytime-container" style="display:none;">
+                    <button id="partytime" name="time" class="form-control form-white dropdown" type="button"
+                            data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                         Choose a time
                     </button>
                     <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="partytime">
-                        <li class="animated lightSpeedIn"><a href="#">Bronze Package ($5 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Silver Package ($10 per guest)</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Gold Package ($15 per guest)</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('10a');">10:00a</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('11a');">11:00a</a></li>
+                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('12p');">12:00p</a></li>
                     </ul>
+                    <input id="time_hidden" type="hidden" name="time" value="" data-parsley-required="true">
                 </div>
+
                 <button type="submit" class="btn btn-submit">Submit</button>
             </form>
         </div>
@@ -204,16 +226,14 @@
 <script src="../js/wow.min.js"></script>
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
+<script src="../js/parsley.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 <script
     src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
 
+
 <script src="../js/main.js"></script>
 <script type="text/javascript">
-    // Debugging purposes
-//    $(window).load(function () {
-//        $('#modal1').modal('show');
-//    });
 
     $('#partydate').datepicker({
         format: "mm/dd/yyyy",
@@ -224,8 +244,37 @@
         $('#partytime-container').css('display', 'inherit');
     });
 
+    $('#form').parsley({
+        trigger: 'change',
+        successClass: "has-success",
+        errorClass: "has-error",
+        classHandler: function (el) {
+            return el.$element.closest('.form-group'); //working
+        },
+        errorsWrapper: '<div class="invalid-message"></div>',
+        errorTemplate: '<span class="help-block"></span>',
+        excluded: 'input[type=button], input[type=submit], input[type=reset]',
+        inputs: 'input, textarea, select, input[type=hidden], :hidden'
+    });
+
+    function setPlanValue(s) {
+        $('#plan_hidden').attr('value', s);
+    }
+
+    function setTimeValue(s) {
+        $('#time_hidden').attr('value', s);
+    }
+
     // TODO Functional time selector
 </script>
+
+<?php if ($_GET['show'] == "1"): ?>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#modal1').modal('show');
+        });
+    </script>
+<?php endif; ?>
 </body>
 
 </html>

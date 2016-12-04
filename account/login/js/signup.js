@@ -6,15 +6,20 @@ $(document).ready(function(){
     var password = $("#password1").val();
     var password2 = $("#password2").val();
     var email = $("#email").val();
+    var full_name = $("#full_name").val();
+    var card_number = $("#card_number").val();
+    var expire_month = $("#expiration-month").val();
+    var expire_year = $("#expiration-year").val();
+    var cvv = $("#cvv").val();
 
     if((username == "") || (password == "") || (email == "")) {
-      $("#message").html("<div class=\"alert alert-danger alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>Please enter a username and a password</div>");
+      $("#message").html("<div class=\"alert alert-danger alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>Please fill out the entire form</div>");
     }
     else {
       $.ajax({
         type: "POST",
         url: "createuser.php",
-        data: "newuser="+username+"&password1="+password+"&password2="+password2+"&email="+email,
+        data: "newuser="+username+"&password1="+password+"&password2="+password2+"&email="+email+"&full_name="+full_name+"&card_number="+card_number+"&expiration_month="+expire_month+"&expiration_year="+expire_year+"&cvv="+cvv,
         success: function(html){
 
 			var text = $(html).text();

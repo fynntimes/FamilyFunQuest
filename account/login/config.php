@@ -5,7 +5,7 @@ include 'globalcon.php';
 include 'dbconf.php';
 
 //Set this for global site use
-$site_name = 'Test Site';
+$site_name = 'Family FunQuest';
 
 //Maximum Login Attempts
 $max_attempts = 5;
