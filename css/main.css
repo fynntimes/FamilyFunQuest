@@ -331,7 +331,7 @@ section {
 .intro-table-hover {
     -webkit-transition: background-image 0.3s ease, background-position 0.3s;
     transition: background-image 0.3s ease, background-position 0.3s;
-    background-image: url('../img/table-2.jpg');
+    background-image: url('http://i.imgur.com/8HtEJXj.jpg');
 }
 
 .intro-table-hover h4 {
@@ -342,7 +342,7 @@ section {
 }
 
 .intro-table-hover:hover {
-    background-image: url('../img/table-2-hover.jpg');
+    background-image: url('http://i.imgur.com/8HtEJXj.jpg');
     background-position: 50% 50%;
 }
 
@@ -662,7 +662,7 @@ section {
 
 footer {
     padding: 140px 0 40px;
-    background: url('../img/footer.jpg');
+    background: url('http://i.imgur.com/YrewxvA.jpg');
     -webkit-background-size: cover;
     background-size: cover;
 }
