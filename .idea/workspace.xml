@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activities/index.php" afterPath="$PROJECT_DIR$/activities/index.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,8 +103,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activities/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="302">
+              <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -186,9 +187,9 @@
         <option value="$PROJECT_DIR$/account/login/main_login.php" />
         <option value="$PROJECT_DIR$/tickets/ticketconf.php" />
         <option value="$PROJECT_DIR$/tickets/index.php" />
-        <option value="$PROJECT_DIR$/activities/index.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/activities/index.php" />
       </list>
     </option>
   </component>
@@ -582,7 +583,7 @@
       <workItem from="1480365615137" duration="3405000" />
       <workItem from="1480469991627" duration="1608000" />
       <workItem from="1480775105420" duration="13962000" />
-      <workItem from="1480880760092" duration="5661000" />
+      <workItem from="1480880760092" duration="7201000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -689,11 +690,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480886507496</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="...">
+      <created>1480886522790</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1480886522790</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43069000" />
+    <option name="totallyTimeSpent" value="44609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -991,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../FamilyFunQuest-Old/activitylist2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="686">
@@ -1007,13 +1007,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/about/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="293" column="18" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#center#3;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="100" column="35" selection-start-line="98" selection-start-column="21" selection-end-line="100" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,10 +1031,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="100" column="35" selection-start-line="98" selection-start-column="21" selection-end-line="100" selection-end-column="35" />
+        <state relative-caret-position="242">
+          <caret line="293" column="18" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#center#3;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1051,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activities/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="302">
+          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
           <folding />
         </state>
       </provider>
