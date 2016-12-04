@@ -39,19 +39,18 @@
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
     <style>
-      @media(min-width:527px) {
+        @media (min-width: 527px) {
 
-
-      }
-
-
-        p{
-            color:black;
         }
-        @media (max-width:990px){
-            .form{
-                position:relative;
-                top:200px;
+
+        p {
+            color: black;
+        }
+
+        @media (max-width: 990px) {
+            .form {
+                position: relative;
+                top: 200px;
             }
 
         }
@@ -67,13 +66,15 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png"
+                                                  alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -96,39 +97,38 @@
     <div class="container-fluid">
         <form>
 
-            <center><div class="col-md-12">
-                <div class="form-group">
-                    <center><h1>Book Your Tickets</h1></center>
-                    <div class="col-xs-4">
-                        <label for="expiry" class="control-label">Children</label>
-                        <input type="text" class="form-control" placeholder="#">
-                    </div>
+            <center>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <center><h1>Book Your Tickets</h1></center>
+                        <div class="col-xs-4">
+                            <label for="expiry" class="control-label">Children</label>
+                            <input type="text" class="form-control" placeholder="#">
+                        </div>
 
-                    <div class="col-xs-4">
-                        <label for="expiry" class="control-label">Seniors</label>
-                        <input type="text" class="form-control" placeholder="#">
-                    </div>
+                        <div class="col-xs-4">
+                            <label for="expiry" class="control-label">Seniors</label>
+                            <input type="text" class="form-control" placeholder="#">
+                        </div>
 
-                    <div class="col-xs-4">
-                        <label for="expiry" class="control-label">Adults</label>
-                        <input type="text" class="form-control" placeholder="#">
-                    </div>
+                        <div class="col-xs-4">
+                            <label for="expiry" class="control-label">Adults</label>
+                            <input type="text" class="form-control" placeholder="#">
+                        </div>
 
-                    <input id="partydate" type="text" class="form-control form-white" placeholder="Choose a date">
-                    <div class="dropdown" id="partytime-container" style="display: none;"> </div>
+                        <label for="partydate" class="control-label">Choose a date</label>
+                        <input id="partydate" type="text" class="form-control form-white">
+                        <div class="dropdown" id="partytime-container" style="display: none;"></div>
                         <center>
-                        <a href="ticketconf.php"><button type="button"  class="btn btn-blue">Confirm</button></a>
-                    </center>
+                            <a href="ticketconf.php">
+                                <button type="button" class="btn btn-blue">Confirm</button>
+                            </a>
+                        </center>
+                    </div>
                 </div>
-                </div></center>
+            </center>
         </form>
     </div>
-</section>
-
-
-    </div></section>
-        <!-- /.container -->
-
 </section>
 
 
@@ -136,7 +136,8 @@
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic, modified with permission by the group.</p>
+                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
+                    modified with permission by the group.</p>
             </div>
             <div class="col-sm-4 text-right text-center-mobile">
                 <ul class="social-footer">
@@ -162,8 +163,15 @@
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
 <script src="../js/main.js"></script>
-<script src="../https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
-<script src="../https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
+<script>
+    $('#partydate').datepicker({
+        format: "mm/dd/yyyy",
+        weekStart: 0,
+        startDate: "-1d"
+    });
+</script>
 
 </body>
 
