@@ -146,7 +146,7 @@
         <div class="modal-content modal-popup">
             <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
             <h3 class="white">Book Party</h3>
-            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get" class="popup-form" id="form">
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="popup-form" id="form">
 
                 <div class="form-group dropdown">
                     <button id="plan" name="plan" class="form-control form-white dropdown" type="button"
