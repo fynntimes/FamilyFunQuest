@@ -41,6 +41,10 @@
             width:300px;
             height:200px;
         }
+        .logo{
+            height:50px;
+            width:50px;
+        }
     </style>
 </head>
 
@@ -59,8 +63,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo.png" data-active-url="../img/logo-active.png" alt=""></a>
-        </div>
+            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo" data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a>         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-nav">
