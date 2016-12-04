@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 require "php/hours.php";
 
 ?>
@@ -51,6 +52,10 @@ require "php/hours.php";
         background-color:deepskyblue;
         padding:80px;
     }
+    .logo{
+        width:50px;
+        height:50px;
+    }
 
 </style>
 </head>
@@ -70,7 +75,7 @@ require "php/hours.php";
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="img/compass_rose_bw_144247.png" class="logo" data-active-url="img/compass_rose_bw_1442472.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -281,7 +286,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/heart-blue.png" alt="" class="icon">
+                        <img src="http://images.telegiz.com/data/thumbs/full/4518/600/0/0/0/jogging-icon.jpg" alt="" class="icon">
                     </div>
                     <h4 class="heading">Activities</h4>
                     <p class="description">From our International Arcade to our Everest Mountain Climbing, we provide
@@ -295,7 +300,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/guru-blue.png" alt="" class="icon">
+                        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/98497-200.png" alt="" class="icon">
                     </div>
                     <h4 class="heading">Parties</h4>
                     <p class="description">Get discounted admission and a pizza party for your guests on your child's
@@ -308,7 +313,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/weight-blue.png" alt="" class="icon">
+                        <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-007bcbfbd7c9d2c7d7b4b021ee745e22.png" alt="" class="icon">
                     </div>
                     <h4 class="heading">Snack Bar</h4>
                     <p class="description">Stomach growling? Satisfy your appetite with food from our tasty snack bar.
