@@ -110,13 +110,13 @@ ul.white-list li:before {
     margin-right: 15px;
     background: white;
 }
-
+/*Hey you idiot! BACKGROUND COVER HERE. Down below! LET'S GO! LOOK AT IT!*/
 header {
     position: relative;
     width: 100%;
     color: white;
     background: rgba(28, 36, 65, 0.93);
-    background: url('../img/header.jpg');
+    background: url('../img/BlueFusion_Ballocity-2.png');
     background-size: cover;
 }
 
@@ -325,13 +325,13 @@ section {
 }
 
 .intro-table-first {
-    background-image: url('../img/table-1.jpg');
+    background-image: url('../img/comein.png');
 }
 
 .intro-table-hover {
     -webkit-transition: background-image 0.3s ease, background-position 0.3s;
     transition: background-image 0.3s ease, background-position 0.3s;
-    background-image: url('../img/table-2.jpg');
+    background-image: url('http://i.imgur.com/8HtEJXj.jpg');
 }
 
 .intro-table-hover h4 {
@@ -342,12 +342,12 @@ section {
 }
 
 .intro-table-hover:hover {
-    background-image: url('../img/table-2-hover.jpg');
+    background-image: url('http://i.imgur.com/8HtEJXj.jpg');
     background-position: 50% 50%;
 }
 
 .intro-table-third {
-    background-image: url('../img/table-3.jpg');
+    background-image: url('../img/KidsPartyRentals.png');
 }
 
 .intro-table-hover .expand {
@@ -662,7 +662,7 @@ section {
 
 footer {
     padding: 140px 0 40px;
-    background: url('../img/footer.jpg');
+    background: url('http://i.imgur.com/YrewxvA.jpg');
     -webkit-background-size: cover;
     background-size: cover;
 }

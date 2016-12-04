@@ -44,6 +44,16 @@ require "php/hours.php";
     <link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+<style>
+    iframe{
+        width:90%;
+    }
+    .mission{
+        background-color:deepskyblue;
+        padding:80px;
+    }
+
+</style>
 </head>
 
 <body>
@@ -252,6 +262,15 @@ require "php/hours.php";
             </div>
         </div>
     </div>
+
+    </section>
+<section class="section section-padded mission">
+
+    <center><h4 class="white">We strive to provide endless fun for kids and parents alike, and offer something new with every visit.
+            From our exciting adventure-themed activities to our flexible party packages, Family FunQuest is the place to be when
+            you're looking for a good time and a great adventure!</h4>
+    </center>
+    <center><h4 class="light-white light">#fun #party #excitement</h4></center>
 </section>
 <section id="services" class="section section-padded">
     <div class="container">
@@ -263,7 +282,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/heart-blue.png" alt="" class="icon">
+                        <img src="http://images.telegiz.com/data/thumbs/full/4518/600/0/0/0/jogging-icon.jpg" alt="" class="icon">
                     </div>
                     <h4 class="heading">Activities</h4>
                     <p class="description">From our International Arcade to our Everest Mountain Climbing, we provide
@@ -277,7 +296,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/guru-blue.png" alt="" class="icon">
+                        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/98497-200.png" alt="" class="icon">
                     </div>
                     <h4 class="heading">Parties</h4>
                     <p class="description">Get discounted admission and a pizza party for your guests on your child's
@@ -290,7 +309,7 @@ require "php/hours.php";
             <div class="col-md-4">
                 <div class="service">
                     <div class="icon-holder">
-                        <img src="img/icons/weight-blue.png" alt="" class="icon">
+                        <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-007bcbfbd7c9d2c7d7b4b021ee745e22.png" alt="" class="icon">
                     </div>
                     <h4 class="heading">Snack Bar</h4>
                     <p class="description">Stomach growling? Satisfy your appetite with food from our tasty snack bar.
@@ -301,8 +320,18 @@ require "php/hours.php";
             </div>
         </div>
     </div>
-    <div class="cut cut-bottom"></div>
+
 </section>
+<section class="section section-padded">
+    <center><h2>Location</h2></center>
+    <center><h4 class="light muted">Stop by for a great time!</h4></center>
+    <center><h5 class="light muted">645 Hamilton St<br>
+        Allentown, PA 18101 </h5></center>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1217.582821388065!2d-75.47264245311501!3d40.60303181078872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x45cac2f94d2c60a1!2sCity+Center+Lehigh+Valley!5e0!3m2!1sen!2sus!4v1480813806326"  height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+
+</section>
+
+
 <!--<section id="team" class="section gray-bg">-->
 <!--    <div class="container">-->
 <!--        <div class="row title text-center">-->
@@ -409,31 +438,7 @@ require "php/hours.php";
 <!--        </div>-->
 <!--    </div>-->
 <!--</section>-->
-<section class="section section-padded blue-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="owl-twitter owl-carousel">
-                    <div class="item text-center">
-                        <i class="icon fa fa-twitter"></i>
-                        <h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-                        <h4 class="light-white light">#health #training #exercise</h4>
-                    </div>
-                    <div class="item text-center">
-                        <i class="icon fa fa-twitter"></i>
-                        <h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-                        <h4 class="light-white light">#health #training #exercise</h4>
-                    </div>
-                    <div class="item text-center">
-                        <i class="icon fa fa-twitter"></i>
-                        <h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-                        <h4 class="light-white light">#health #training #exercise</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content modal-popup">
@@ -465,6 +470,9 @@ require "php/hours.php";
             </form>
         </div>
     </div>
+</div>
+
+
 </div>
 <footer>
     <div class="container">
