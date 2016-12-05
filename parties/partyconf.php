@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tickets | Family FunQuest</title>
+    <title>Family FunQuest</title>
     <meta name="description"
           content="An endless quest of fun for you and your family."/>
     <meta name="author" content="Imran Dharamsi, Faizaan Datoo, Ali Mody"/>
@@ -35,27 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../fonts/eleganticons/et-icons.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <!-- Datepicker -->
-    <link rel="stylesheet" type="text/css"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
-    <style>
-        @media (min-width: 527px) {
 
-        }
-
-        p {
-            color: black;
-        }
-
-        @media (max-width: 990px) {
-            .form {
-                position: relative;
-                top: 200px;
-            }
-
-        }
-
-    </style>
 </head>
 
 <body>
@@ -66,22 +46,20 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png"
-                                                  alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-nav">
                 <li class=""><a href="/">Home</a></li>
                 <li><a href="/#services">Services</a></li>
-                <li><a href="/activities">Activities</a></li>
+                <li class="active"><a href="/activities">Activities</a></li>
                 <li><a href="/parties">Parties</a></li>
                 <li><a href="/snacks">Snacks</a></li>
                 <li><a href="/account" class="btn btn-blue">Your Account</a></li>
@@ -91,54 +69,34 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-<!-- <br><br><br><br><br><br><br><br><br> -->
-<section class="section section-padded form">
 
-    <div class="container-fluid">
-        <form action="/payment/index.php" method="post">
+<section class="section section-padded">
 
-            <input type="hidden" name="orderType" value="ticket">
+    <div class="container" style="text-align: center;">
 
-            <center>
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <center><h1>Book Your Tickets</h1></center>
-                        <div class="col-xs-4">
-                            <label for="expiry" class="control-label">Children</label>
-                            <input type="text" name="children" class="form-control" placeholder="#">
-                        </div>
+        <div class="row">
 
-                        <div class="col-xs-4">
-                            <label for="expiry" class="control-label">Seniors</label>
-                            <input type="text" name="seniors" class="form-control" placeholder="#">
-                        </div>
+            <h1>Thank you!</h1>
 
-                        <div class="col-xs-4">
-                            <label for="expiry" class="control-label">Adults</label>
-                            <input type="text" name="adults" class="form-control" placeholder="#">
-                        </div>
+        </div>
 
-                        <label for="partydate" class="control-label">Choose a date</label>
-                        <input id="partydate" name="ticket-date" type="text" class="form-control"
-                               placeholder="Choose a date">
-                        <center>
-                            <button type="submit" class="btn btn-blue">Continue</button>
-                        </center>
-                        <!-- TODO Running total of cost -->
-                    </div>
-                </div>
-            </center>
-        </form>
+        <br>
+
+        <div class="row">
+
+            <p>Your order has been processed (order #<?php echo $_GET['id']; ?>). Check your email to print out your party identification, which you must present to us on the day of your party. Have fun!</p>
+
+        </div>
+
     </div>
-</section>
 
+</section>
 
 <footer>
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
-                    modified with permission by the group.</p>
+                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic, modified with permission by the group.</p>
             </div>
             <div class="col-sm-4 text-right text-center-mobile">
                 <ul class="social-footer">
@@ -164,17 +122,6 @@
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
 <script src="../js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
-<script>
-    $('#partydate').datepicker({
-        format: "mm/dd/yyyy",
-        weekStart: 0,
-        startDate: "-1d"
-    });
-</script>
-
 </body>
 
 </html>

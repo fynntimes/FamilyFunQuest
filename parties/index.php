@@ -1,5 +1,64 @@
 <?php
 
+function listPartyTimes($package)
+{
+    $ret = array();
+
+    if ($package == "bronze") {
+        $duration = 2;
+    } elseif ($package == "silver") {
+        $duration = 3;
+    } else {
+        $duration = 4;
+    }
+
+    $dayOfWeek = jddayofweek(cal_to_jd(CAL_GREGORIAN, date("m"), date("d"), date("Y")), 1);
+    switch ($dayOfWeek) {
+        case "Sunday":
+            $startTime = 12;
+            $endTime = 17;
+            break;
+        case "Monday":
+            $startTime = 13;
+            $endTime = 20;
+            break;
+        case "Tuesday":
+            $startTime = 13;
+            $endTime = 20;
+            break;
+        case "Wednesday":
+            $startTime = 13;
+            $endTime = 20;
+            break;
+        case "Thursday":
+            $startTime = 13;
+            $endTime = 20;
+            break;
+        case "Friday":
+            $startTime = 13;
+            $endTime = 20;
+            break;
+        case "Saturday":
+            $startTime = 12;
+            $endTime = 22;
+            break;
+        default:
+            $startTime = 13;
+            $endTime = 20;
+            break;
+    }
+
+    for ($x = 0; true; $x++) {
+        $y = $duration * $x + $startTime;
+        if ($y > $endTime) {
+            break;
+        }
+
+        $ret[] = "<li class=\"animated lightSpeedIn\"><a href=\"#\" onclick=\"setTimeValue('12p');\">" . $y . ", . " . $duration . "h</a></li>";
+    }
+
+    return implode("\n", $ret);
+}
 
 ?>
 <!DOCTYPE html>
@@ -43,10 +102,10 @@
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <style>
-      .logo{
-          width:50px;
-          height:50px;
-      }
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
     </style>
 </head>
 
@@ -65,7 +124,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo" data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a> 
+            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo"
+                                                  data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a> 
 
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -148,13 +208,15 @@
         <div class="modal-content modal-popup">
             <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
             <h3 class="white">Book Party</h3>
-            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="popup-form" id="form">
+            <form action="/payment/index.php" method="post" class="popup-form" id="form">
+
+                <input type="hidden" name="orderType" value="party">
 
                 <div class="form-group dropdown">
                     <button id="plan" name="plan" class="form-control form-white dropdown" type="button"
                             data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                        Pricing Plan
+                        Bronze Package ($5 per guest)
                     </button>
                     <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="plan">
                         <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('bronze');">Bronze Package
@@ -164,7 +226,7 @@
                         <li class="animated lightSpeedIn"><a href="#" onclick="setPlanValue('gold');">Gold Package ($15
                                 per guest)</a></li>
                     </ul>
-                    <input id="plan_hidden" type="hidden" name="plan" value="" data-parsley-required="true">
+                    <input id="plan_hidden" type="hidden" name="plan" value="bronze" data-parsley-required="true">
                 </div>
 
                 <div class="form-group">
@@ -184,10 +246,8 @@
                             aria-haspopup="true" aria-expanded="false">
                         Choose a time
                     </button>
-                    <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="partytime">
-                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('10a');">10:00a</a></li>
-                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('11a');">11:00a</a></li>
-                        <li class="animated lightSpeedIn"><a href="#" onclick="setTimeValue('12p');">12:00p</a></li>
+                    <ul id="time-dropdown" class="dropdown-menu animated fadeIn" role="menu"
+                        aria-labelledby="partytime">
                     </ul>
                     <input id="time_hidden" type="hidden" name="time" value="" data-parsley-required="true">
                 </div>
@@ -237,13 +297,18 @@
 <script src="../js/main.js"></script>
 <script type="text/javascript">
 
+    var plan = "bronze";
+    var date = new Date();
+
     $('#partydate').datepicker({
         format: "mm/dd/yyyy",
         weekStart: 0,
         startDate: "-1d"
     }).on('changeDate', function (e) {
-        var date = e.date;
+        date = e.date;
         $('#partytime-container').css('display', 'inherit');
+        $('#partytime').text("Choose a time");
+        $('#time-dropdown').html(calculateTimes(plan, date));
     });
 
     $('#form').parsley({
@@ -261,13 +326,83 @@
 
     function setPlanValue(s) {
         $('#plan_hidden').attr('value', s);
+        $('#time-dropdown').html(calculateTimes(plan, date));
+        $('#time_hidden').attr('value', "");
+        $('#partytime').text("Choose a time");
+        plan = s;
+
+        $('#plan_hidden').attr('value', s);
+        $('#time-dropdown').html(calculateTimes(plan, date));
+        $('#time_hidden').attr('value', "");
+        $('#partytime').text("Choose a time");
+        plan = s;
     }
 
-    function setTimeValue(s) {
-        $('#time_hidden').attr('value', s);
+    function setTimeValue(y) {
+        $('#time_hidden').attr('value', y);
+
+        y = parseInt(y);
+//        console.log("Timeval: " + y);
+        var suffix = y >= 12 ? ":00p" : ":00a";
+        var hours = ((y + 11) % 12 + 1) + suffix;
+        $('#partytime').text(hours);
     }
 
-    // TODO Functional time selector
+    function calculateTimes(plan, date) {
+        var ret = [];
+
+        var dayOfWeek = date.getDay();
+        var startTime = 0;
+        var endTime = 0;
+        switch (dayOfWeek) {
+            case 0:
+                startTime = 12;
+                endTime = 17;
+                break;
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                startTime = 13;
+                endTime = 20;
+                break;
+            case 6:
+                startTime = 12;
+                endTime = 22;
+                break;
+            default:
+                startTime = 13;
+                endTime = 20;
+                break;
+        }
+
+        var duration = 0;
+        if (plan == "bronze") {
+            duration = 2;
+        } else if (plan == "silver") {
+            duration = 3;
+        } else {
+            duration = 4;
+        }
+//        console.log("duration: " + duration);
+
+        for (var x = 0; true; x++) {
+            var y = duration * x + startTime;
+            if (y > endTime - duration) {
+                break;
+            }
+
+//            console.log("Calc: " + y);
+            var suffix = y >= 12 ? ":00p" : ":00a";
+            var hours = ((y + 11) % 12 + 1) + suffix;
+
+            ret.push("<li class=\"animated lightSpeedIn\"><a href=\"#\" onclick=\"setTimeValue('" + y + "');\">" + hours + ", " + duration + "h</a></li>");
+        }
+
+        return ret.join("\n");
+    }
+
 </script>
 
 <?php if ($_GET['show'] == "1"): ?>
