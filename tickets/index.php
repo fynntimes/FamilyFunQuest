@@ -95,7 +95,9 @@
 <section class="section section-padded form">
 
     <div class="container-fluid">
-        <form>
+        <form action="/payment/index.php" method="post">
+
+            <input type="hidden" name="orderType" value="ticket">
 
             <center>
                 <div class="col-md-12">
@@ -103,26 +105,24 @@
                         <center><h1>Book Your Tickets</h1></center>
                         <div class="col-xs-4">
                             <label for="expiry" class="control-label">Children</label>
-                            <input type="text" class="form-control" placeholder="#">
+                            <input type="text" name="children" class="form-control" placeholder="#">
                         </div>
 
                         <div class="col-xs-4">
                             <label for="expiry" class="control-label">Seniors</label>
-                            <input type="text" class="form-control" placeholder="#">
+                            <input type="text" name="seniors" class="form-control" placeholder="#">
                         </div>
 
                         <div class="col-xs-4">
                             <label for="expiry" class="control-label">Adults</label>
-                            <input type="text" class="form-control" placeholder="#">
+                            <input type="text" name="adults" class="form-control" placeholder="#">
                         </div>
 
                         <label for="partydate" class="control-label">Choose a date</label>
-                        <input id="partydate" type="text" class="form-control form-white">
-                        <div class="dropdown" id="partytime-container" style="display: none;"></div>
+                        <input id="partydate" name="ticket-date" type="text" class="form-control"
+                               placeholder="Choose a date">
                         <center>
-                            <a href="ticketconf.php">
-                                <button type="button" class="btn btn-blue">Confirm</button>
-                            </a>
+                            <button type="submit" class="btn btn-blue">Continue</button>
                         </center>
                     </div>
                 </div>
@@ -164,7 +164,8 @@
 <script src="../js/jquery.onepagenav.js"></script>
 <script src="../js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.en-GB.min.js"></script>
 <script>
     $('#partydate').datepicker({
         format: "mm/dd/yyyy",

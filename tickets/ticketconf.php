@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tickets | Family FunQuest</title>
+    <title>Family FunQuest</title>
     <meta name="description"
           content="An endless quest of fun for you and your family."/>
     <meta name="author" content="Imran Dharamsi, Faizaan Datoo, Ali Mody"/>
@@ -35,30 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../fonts/eleganticons/et-icons.css">
     <!-- Main style -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <style>
-        @media(min-width:527px) {
 
-
-        }
-
-        p{
-            color:black;
-        }
-        @media (max-width:990px){
-            .form{
-                position:relative;
-                top:200px;
-            }
-
-        }
-        .conf{
-            color:grey;
-        }
-        .logo{
-            width:50px;
-            height:50px;
-        }
-    </style>
 </head>
 
 <body>
@@ -75,14 +52,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo" data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a> 
+            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-nav">
                 <li class=""><a href="/">Home</a></li>
                 <li><a href="/#services">Services</a></li>
-                <li><a href="/activities">Activities</a></li>
+                <li class="active"><a href="/activities">Activities</a></li>
                 <li><a href="/parties">Parties</a></li>
                 <li><a href="/snacks">Snacks</a></li>
                 <li><a href="/account" class="btn btn-blue">Your Account</a></li>
@@ -92,21 +69,28 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-<!-- <br><br><br><br><br><br><br><br><br> -->
-<section class="section section-padded form">
 
-    <div class="container-fluid">
-        <form>
+<section class="section section-padded">
 
-            <center><h1>Thank You!</h1></center>
-            <center><h4 class="conf">Your tickets have been booked. We'll see you on [DATE].</h4></center>
+    <div class="container" style="text-align: center;">
 
+        <div class="row">
 
-    </div></section>
-<!-- /.container -->
+            <h1>Thank you!</h1>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <p>Your order has been processed (order #<?php echo $_GET['id']; ?>). Check your email to print out your ticket. Have fun!</p>
+
+        </div>
+
+    </div>
 
 </section>
-
 
 <footer>
     <div class="container">
@@ -141,10 +125,3 @@
 </body>
 
 </html>
-<?php
-/**
- * Created by PhpStorm.
- * User: imrandharamsi
- * Date: 12/3/16
- * Time: 8:46 PM
- */
