@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/masthead.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/compass_rose_bw_144247.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/compass_rose_bw_1442472.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-active.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activities/index.php" afterPath="$PROJECT_DIR$/activities/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base-template.txt" afterPath="$PROJECT_DIR$/base-template.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parties/index.php" afterPath="$PROJECT_DIR$/parties/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parties/partyconf.php" afterPath="$PROJECT_DIR$/parties/partyconf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payment/index.php" afterPath="$PROJECT_DIR$/payment/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snacks/index.php" afterPath="$PROJECT_DIR$/snacks/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets/index.php" afterPath="$PROJECT_DIR$/tickets/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets/ticketconf.php" afterPath="$PROJECT_DIR$/tickets/ticketconf.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +41,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
+            <state relative-caret-position="390">
+              <caret line="273" column="44" selection-start-line="273" selection-start-column="44" selection-end-line="273" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -542,7 +528,7 @@
       <workItem from="1480775105420" duration="13962000" />
       <workItem from="1480880760092" duration="7383000" />
       <workItem from="1480889081131" duration="263000" />
-      <workItem from="1480900954621" duration="13327000" />
+      <workItem from="1480900954621" duration="13508000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -719,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480976969999</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Various UI refinements">
+      <created>1480979971632</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1480979971632</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58381000" />
+    <option name="totallyTimeSpent" value="58562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="991" extended-state="0" />
@@ -780,7 +773,8 @@
     <MESSAGE value="Book ticket button on Activities page functional" />
     <MESSAGE value="Tickets can now be ordered!" />
     <MESSAGE value="Party booking now works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Party booking now works" />
+    <MESSAGE value="Various UI refinements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Various UI refinements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1093,8 +1087,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
+        <state relative-caret-position="390">
+          <caret line="273" column="44" selection-start-line="273" selection-start-column="44" selection-end-line="273" selection-end-column="44" />
           <folding />
         </state>
       </provider>

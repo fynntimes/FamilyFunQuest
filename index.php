@@ -270,9 +270,10 @@ require "php/hours.php";
     </section>
 <section class="section section-padded mission">
 
-    <center><h4 class="white">We strive to provide endless fun for kids and parents alike, and offer something new with every visit.
+    <center><h4 class="white">Our Mission</h4></center>
+    <center><p class="white" style="width: 50%">We strive to provide endless fun for kids and parents alike, and offer something new with every visit.
             From our exciting adventure-themed activities to our flexible party packages, Family FunQuest is the place to be when
-            you're looking for a good time and a great adventure!</h4>
+            you're looking for a good time and a great adventure!</p>
     </center>
     <center><h4 class="light-white light">#fun #party #excitement</h4></center>
 </section>
