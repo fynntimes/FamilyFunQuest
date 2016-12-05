@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="Party booking new">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parties/partyconf.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/checklogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/createuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/dbconf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/globalcon.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/images/screenshot-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/images/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/dbconn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/globalconf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/loginform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/mailsender.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/mysqlerrors.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/newuserform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/respobj.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/selectemail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/includes/verify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/js/jquery-2.2.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/js/login.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/js/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/js/signup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/js/signup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/loginheader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/main_login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/login/verifyuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activitylist.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partybooking1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partybooking2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partybooking3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partylist.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ticketform.php" afterPath="" />
+    <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/masthead.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/compass_rose_bw_144247.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/compass_rose_bw_1442472.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-active.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activities/index.php" afterPath="$PROJECT_DIR$/activities/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base-template.txt" afterPath="$PROJECT_DIR$/base-template.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parties/index.php" afterPath="$PROJECT_DIR$/parties/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parties/partyconf.php" afterPath="$PROJECT_DIR$/parties/partyconf.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payment/index.php" afterPath="$PROJECT_DIR$/payment/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snacks/index.php" afterPath="$PROJECT_DIR$/snacks/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets/index.php" afterPath="$PROJECT_DIR$/tickets/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets/ticketconf.php" afterPath="$PROJECT_DIR$/tickets/ticketconf.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,7 +51,101 @@
     <favorites_list name="FamilyFunQuest" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="115" column="106" selection-start-line="115" selection-start-column="106" selection-end-line="115" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snacks/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="114" column="142" selection-start-line="114" selection-start-column="142" selection-end-line="114" selection-end-column="142" />
+              <folding>
+                <element signature="e#4933#4939#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+              <folding>
+                <marker date="1480979664000" expanded="true" signature="1609:1814" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:1815" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:1911" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:1927" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:1950" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:1970" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:1989" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:2010" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:2027" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="1609:2028" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480979664000" expanded="true" signature="2086:2125" ph="SELECT `id` tickets" />
+                <marker date="1480979664000" expanded="true" signature="2086:2130" ph="SELECT `id` tickets" />
+                <marker date="1480979664000" expanded="true" signature="2086:2146" ph="SELECT `id` tickets" />
+                <marker date="1480979664000" expanded="true" signature="3599:3970" ph="INSERT INTO `fbla`.`parties`... " />
+                <marker date="1480979664000" expanded="true" signature="3599:4003" ph="INSERT INTO `fbla`.`parties`... " />
+                <marker date="1480979664000" expanded="true" signature="4086:4140" ph="SELECT * FRO... parties" />
+                <marker date="1480979664000" expanded="true" signature="4086:4155" ph="SELECT * FRO... parties" />
+                <marker date="1480979664000" expanded="true" signature="4086:4169" ph="SELECT * FRO... parties" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parties/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="323" column="53" selection-start-line="322" selection-start-column="12" selection-end-line="323" selection-end-column="53" />
+              <folding>
+                <marker date="1480979534000" expanded="true" signature="39:58" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ticketconf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets/ticketconf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partyconf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parties/partyconf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,14 +174,12 @@
         <option value="$PROJECT_DIR$/backend/tickets.php" />
         <option value="$PROJECT_DIR$/php/hours.php" />
         <option value="$PROJECT_DIR$/css/cardio.css" />
-        <option value="$PROJECT_DIR$/base-template.txt" />
         <option value="$PROJECT_DIR$/account/index.php" />
         <option value="$PROJECT_DIR$/parties/step1.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/scrollnav.js" />
         <option value="$PROJECT_DIR$/old/ticketform.php" />
         <option value="$USER_HOME$/Downloads/index (1).php" />
-        <option value="$PROJECT_DIR$/snacks/index.php" />
         <option value="$PROJECT_DIR$/account/login/config.php" />
         <option value="$PROJECT_DIR$/account/login/dbconf.php" />
         <option value="$PROJECT_DIR$/account/login/includes/dbconn.php" />
@@ -123,13 +188,15 @@
         <option value="$PROJECT_DIR$/account/login/signup.php" />
         <option value="$PROJECT_DIR$/account/login/main_login.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/base-template.txt" />
         <option value="$PROJECT_DIR$/activities/index.php" />
-        <option value="$PROJECT_DIR$/tickets/ticketconf.php" />
+        <option value="$PROJECT_DIR$/snacks/index.php" />
         <option value="$PROJECT_DIR$/tickets/index.php" />
-        <option value="$PROJECT_DIR$/parties/index.php" />
+        <option value="$PROJECT_DIR$/tickets/ticketconf.php" />
         <option value="$PROJECT_DIR$/parties/partyconf.php" />
+        <option value="$PROJECT_DIR$/parties/index.php" />
         <option value="$PROJECT_DIR$/payment/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -180,6 +247,10 @@
               <option name="myItemId" value="FamilyFunQuest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -188,6 +259,76 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snacks" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parties" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FamilyFunQuest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,6 +357,7 @@
       <recent name="$PROJECT_DIR$/account" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/about" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -400,7 +542,7 @@
       <workItem from="1480775105420" duration="13962000" />
       <workItem from="1480880760092" duration="7383000" />
       <workItem from="1480889081131" duration="263000" />
-      <workItem from="1480900954621" duration="10551000" />
+      <workItem from="1480900954621" duration="13327000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -570,20 +712,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480937111857</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Party booking now works">
+      <created>1480976969999</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1480976969999</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55605000" />
+    <option name="totallyTimeSpent" value="58381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="991" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -596,7 +746,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -630,7 +779,8 @@
     <MESSAGE value="Fixed navbars" />
     <MESSAGE value="Book ticket button on Activities page functional" />
     <MESSAGE value="Tickets can now be ordered!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tickets can now be ordered!" />
+    <MESSAGE value="Party booking now works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Party booking now works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,25 +790,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/email.php" />
-    <entry file="file://$PROJECT_DIR$/css/app.css" />
-    <entry file="file://$PROJECT_DIR$/nav.php" />
-    <entry file="file://$PROJECT_DIR$/backend/database.php" />
-    <entry file="file://$PROJECT_DIR$/backend/email.php" />
     <entry file="file://$PROJECT_DIR$/template.php" />
     <entry file="file://$PROJECT_DIR$/backend/parties.php" />
     <entry file="file://$PROJECT_DIR$/backend/tickets.php" />
     <entry file="file://$PROJECT_DIR$/backend/bootstrap.php" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo-active.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parties/step1.php" />
     <entry file="file://$PROJECT_DIR$/old_account/index.php" />
     <entry file="file://$PROJECT_DIR$/old/partylist.php" />
@@ -750,42 +886,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../FamilyFunQuest-Old/activitylist2.php" />
     <entry file="file://$PROJECT_DIR$/about/index.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4470">
-          <caret line="298" column="18" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10035">
-          <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snacks/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activitylist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activities/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -812,26 +916,6 @@
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <marker date="1480808676000" expanded="true" signature="300:564" ph="CREATE TABLE... parties" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-template.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets/ticketconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4004#4010#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,102 +955,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets/index.php">
+    <entry file="file://$PROJECT_DIR$/php/hours.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="162" column="40" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
+        <state relative-caret-position="165">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payment/index.php">
+    <entry file="file://$PROJECT_DIR$/img/compass_rose_bw_144247.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo-active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/compass_rose_bw_1442472.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/compass_rose_bw_144247.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
-          <folding>
-            <marker date="1480976877000" expanded="true" signature="1295:1500" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1501" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1597" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1613" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1636" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1656" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1675" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1696" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1713" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1295:1714" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480976877000" expanded="true" signature="1772:1811" ph="SELECT `id` tickets" />
-            <marker date="1480976877000" expanded="true" signature="1772:1816" ph="SELECT `id` tickets" />
-            <marker date="1480976877000" expanded="true" signature="1772:1832" ph="SELECT `id` tickets" />
-            <marker date="1480976877000" expanded="true" signature="3624:3995" ph="INSERT INTO `fbla`.`parties`... " />
-            <marker date="1480976877000" expanded="true" signature="3624:4028" ph="INSERT INTO `fbla`.`parties`... " />
-            <marker date="1480976877000" expanded="true" signature="4111:4165" ph="SELECT * FRO... parties" />
-            <marker date="1480976877000" expanded="true" signature="4111:4180" ph="SELECT * FRO... parties" />
-            <marker date="1480976877000" expanded="true" signature="4111:4194" ph="SELECT * FRO... parties" />
-            <marker date="1480976877000" expanded="true" signature="5720:9343" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="5728:5747" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="5728:7592" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="5963:6035" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="7600:9343" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="7624:7687" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="7733:7788" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="7789:9230" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="7817:9191" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="7923:8502" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="8013:8305" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="8659:9144" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="8721:9129" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="9272:9343" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="9300:9343" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="10476:10505" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="10745:10797" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="10815:11307" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="10870:11058" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="10977:11035" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11114:11288" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11219:11265" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11534:11571" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11620:11636" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11620:12372" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11648:12362" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11707:12351" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11742:11939" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="11762:11920" ph="..." />
-            <marker date="1480976877000" expanded="false" signature="11763:11769" ph="©" />
-            <marker date="1480976877000" expanded="true" signature="12004:12336" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="12047:12317" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="12176:12295" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="12435:12525" ph="..." />
-            <marker date="1480976877000" expanded="true" signature="12444:12454" ph="..." />
-          </folding>
+        <state relative-caret-position="356">
+          <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-template.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="165" column="10" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="115" column="106" selection-start-line="115" selection-start-column="106" selection-end-line="115" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/ticketconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parties/partyconf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snacks/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="114" column="142" selection-start-line="114" selection-start-column="142" selection-end-line="114" selection-end-column="142" />
+          <folding>
+            <element signature="e#4933#4939#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parties/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2171">
-          <caret line="210" column="44" selection-start-line="210" selection-start-column="44" selection-end-line="210" selection-end-column="44" />
+        <state relative-caret-position="615">
+          <caret line="323" column="53" selection-start-line="322" selection-start-column="12" selection-end-line="323" selection-end-column="53" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1480976510000" expanded="true" signature="1495:1514" ph="..." />
-            <marker date="1480976510000" expanded="true" signature="8137:8352" ph="..." />
-            <marker date="1480976510000" expanded="true" signature="8234:8352" ph="..." />
+            <marker date="1480979534000" expanded="true" signature="39:58" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/hours.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="298">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+          <folding>
+            <marker date="1480979664000" expanded="true" signature="1609:1814" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:1815" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:1911" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:1927" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:1950" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:1970" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:1989" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:2010" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:2027" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="1609:2028" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480979664000" expanded="true" signature="2086:2125" ph="SELECT `id` tickets" />
+            <marker date="1480979664000" expanded="true" signature="2086:2130" ph="SELECT `id` tickets" />
+            <marker date="1480979664000" expanded="true" signature="2086:2146" ph="SELECT `id` tickets" />
+            <marker date="1480979664000" expanded="true" signature="3599:3970" ph="INSERT INTO `fbla`.`parties`... " />
+            <marker date="1480979664000" expanded="true" signature="3599:4003" ph="INSERT INTO `fbla`.`parties`... " />
+            <marker date="1480979664000" expanded="true" signature="4086:4140" ph="SELECT * FRO... parties" />
+            <marker date="1480979664000" expanded="true" signature="4086:4155" ph="SELECT * FRO... parties" />
+            <marker date="1480979664000" expanded="true" signature="4086:4169" ph="SELECT * FRO... parties" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
           <folding />
         </state>
       </provider>

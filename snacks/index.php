@@ -63,7 +63,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo" data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a>         </div>
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" class="logo" data-active-url="../img/logo.png" alt=""></a>         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-nav">
@@ -72,7 +72,7 @@
                 <li><a href="/activities">Activities</a></li>
                 <li><a href="/parties">Parties</a></li>
                 <li class="active"><a href="/snacks">Snacks</a></li>
-                <li><a href="/account" class="btn btn-blue">Your Account</a></li>
+                <li><a href="/tickets" class="btn btn-blue">Buy Tickets</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -111,8 +111,8 @@
             <div class="col-md-4 col-xs-12">
                 <img class="hotdog" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Hotdog_-_Evan_Swigart.jpg">
                 <h2>Hot Dogs</h2> 
-                <h4>$2.99 each, plus an additional $0.50 per topping</h4> 
-                <p>Before you sit down to munch on this classic American snack, make sure to fill it up with  some of our delicious toppings. </p> 
+                <h4>$2.99 each</h4> 
+                <p>Before you sit down to munch on this classic American snack, make sure to fill it up with  some of our delicious toppings (50&cent;/each). </p> 
             </div>
             <div class="col-md-4 col-xs-12">
                 <img class="nachos" src="https://c1.staticflickr.com/5/4102/4803597185_48b758f467_b.jpg">
@@ -155,15 +155,7 @@
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
-                    modified with permission by the group.</p>
-            </div>
-            <div class="col-sm-4 text-right text-center-mobile">
-                <ul class="social-footer">
-                    <li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                </ul>
+                <p>&copy; <?php echo date("Y"); ?> Family FunQuest. This business is imaginary and made for the <a href="http://pafbla.org">FBLA</a> competition.</p>
             </div>
         </div>
     </div>

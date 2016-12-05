@@ -66,15 +66,13 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png"
-                                                  alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" data-active-url="../img/logo.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -84,18 +82,18 @@
                 <li><a href="/activities">Activities</a></li>
                 <li><a href="/parties">Parties</a></li>
                 <li><a href="/snacks">Snacks</a></li>
-                <li><a href="/account" class="btn btn-blue">Your Account</a></li>
+                <li><a href="/tickets" class="btn btn-blue">Buy Tickets</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
 </nav>
-<!-- <br><br><br><br><br><br><br><br><br> -->
+
 <section class="section section-padded form">
 
     <div class="container-fluid">
-        <form action="/payment/index.php" method="post">
+        <form id="form" action="/payment/index.php" method="post">
 
             <input type="hidden" name="orderType" value="ticket">
 
@@ -105,22 +103,22 @@
                         <center><h1>Book Your Tickets</h1></center>
                         <div class="col-xs-4">
                             <label for="expiry" class="control-label">Children</label>
-                            <input type="text" name="children" class="form-control" placeholder="#">
+                            <input type="number" name="children" class="form-control" placeholder="#" min="0" max="30" data-parsley-required="true">
                         </div>
 
                         <div class="col-xs-4">
                             <label for="expiry" class="control-label">Seniors</label>
-                            <input type="text" name="seniors" class="form-control" placeholder="#">
+                            <input type="number" name="seniors" class="form-control" placeholder="#" min="0" max="30" data-parsley-required="true">
                         </div>
 
                         <div class="col-xs-4">
                             <label for="expiry" class="control-label">Adults</label>
-                            <input type="text" name="adults" class="form-control" placeholder="#">
+                            <input type="number" name="adults" class="form-control" placeholder="#" min="0" max="30" data-parsley-required="true">
                         </div>
 
                         <label for="partydate" class="control-label">Choose a date</label>
                         <input id="partydate" name="ticket-date" type="text" class="form-control"
-                               placeholder="Choose a date">
+                               placeholder="Choose a date" data-parsley-required="true">
                         <center>
                             <button type="submit" class="btn btn-blue">Continue</button>
                         </center>
@@ -137,15 +135,7 @@
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
-                    modified with permission by the group.</p>
-            </div>
-            <div class="col-sm-4 text-right text-center-mobile">
-                <ul class="social-footer">
-                    <li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                </ul>
+                <p>&copy; <?php echo date("Y"); ?> Family FunQuest. This business is imaginary and made for the <a href="http://pafbla.org">FBLA</a> competition.</p>
             </div>
         </div>
     </div>
@@ -163,6 +153,7 @@
 <script src="../js/wow.min.js"></script>
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
+<script src="../js/parsley.min.js"></script>
 <script src="../js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 <script
@@ -172,6 +163,18 @@
         format: "mm/dd/yyyy",
         weekStart: 0,
         startDate: "-1d"
+    });
+
+
+    $('#form').parsley({
+        trigger: 'change',
+        successClass: "",
+        errorClass: "",
+        classHandler: function (el) {
+            return el.$element.closest('.form-group'); //working
+        },
+        errorsWrapper: '<div class="invalid-message"></div>',
+        errorTemplate: '<span class="help-block"></span>'
     });
 </script>
 

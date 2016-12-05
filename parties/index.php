@@ -1,66 +1,3 @@
-<?php
-
-function listPartyTimes($package)
-{
-    $ret = array();
-
-    if ($package == "bronze") {
-        $duration = 2;
-    } elseif ($package == "silver") {
-        $duration = 3;
-    } else {
-        $duration = 4;
-    }
-
-    $dayOfWeek = jddayofweek(cal_to_jd(CAL_GREGORIAN, date("m"), date("d"), date("Y")), 1);
-    switch ($dayOfWeek) {
-        case "Sunday":
-            $startTime = 12;
-            $endTime = 17;
-            break;
-        case "Monday":
-            $startTime = 13;
-            $endTime = 20;
-            break;
-        case "Tuesday":
-            $startTime = 13;
-            $endTime = 20;
-            break;
-        case "Wednesday":
-            $startTime = 13;
-            $endTime = 20;
-            break;
-        case "Thursday":
-            $startTime = 13;
-            $endTime = 20;
-            break;
-        case "Friday":
-            $startTime = 13;
-            $endTime = 20;
-            break;
-        case "Saturday":
-            $startTime = 12;
-            $endTime = 22;
-            break;
-        default:
-            $startTime = 13;
-            $endTime = 20;
-            break;
-    }
-
-    for ($x = 0; true; $x++) {
-        $y = $duration * $x + $startTime;
-        if ($y > $endTime) {
-            break;
-        }
-
-        $ret[] = "<li class=\"animated lightSpeedIn\"><a href=\"#\" onclick=\"setTimeValue('12p');\">" . $y . ", . " . $duration . "h</a></li>";
-    }
-
-    return implode("\n", $ret);
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -117,16 +54,13 @@ function listPartyTimes($package)
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/compass_rose_bw_144247.png" class="logo"
-                                                  data-active-url="../img/compass_rose_bw_1442472.png" alt=""></a> 
-
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" data-active-url="../img/logo.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -136,7 +70,7 @@ function listPartyTimes($package)
                 <li><a href="/activities">Activities</a></li>
                 <li class="active"><a href="/parties">Parties</a></li>
                 <li><a href="/snacks">Snacks</a></li>
-                <li><a href="/account" class="btn btn-blue">Your Account</a></li>
+                <li><a href="/tickets" class="btn btn-blue">Buy Tickets</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -262,15 +196,7 @@ function listPartyTimes($package)
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
-                    modified with permission by the group.</p>
-            </div>
-            <div class="col-sm-4 text-right text-center-mobile">
-                <ul class="social-footer">
-                    <li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                </ul>
+                <p>&copy; <?php echo date("Y"); ?> Family FunQuest. This business is imaginary and made for the <a href="http://pafbla.org">FBLA</a> competition.</p>
             </div>
         </div>
     </div>

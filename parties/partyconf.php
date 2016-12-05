@@ -52,17 +52,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" data-active-url="../img/logo.png" alt=""></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-nav">
                 <li class=""><a href="/">Home</a></li>
                 <li><a href="/#services">Services</a></li>
-                <li class="active"><a href="/activities">Activities</a></li>
-                <li><a href="/parties">Parties</a></li>
+                <li><a href="/activities">Activities</a></li>
+                <li class="active"><a href="/parties">Parties</a></li>
                 <li><a href="/snacks">Snacks</a></li>
-                <li><a href="/account" class="btn btn-blue">Your Account</a></li>
+                <li><a href="/tickets" class="btn btn-blue">Buy Tickets</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -92,18 +92,13 @@
 
 </section>
 
+<br><br>
+
 <footer>
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic, modified with permission by the group.</p>
-            </div>
-            <div class="col-sm-4 text-right text-center-mobile">
-                <ul class="social-footer">
-                    <li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                </ul>
+                <p>&copy; <?php echo date("Y"); ?> Family FunQuest. This business is imaginary and made for the <a href="http://pafbla.org">FBLA</a> competition.</p>
             </div>
         </div>
     </div>

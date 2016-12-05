@@ -22,16 +22,36 @@ $mail->Port = 465;
 $mail->setFrom('familyfunquest@gmail.com', 'Family FunQuest');
 $mail->isHTML(true);
 
+// Prices
+
+
+$orderType = $_POST['orderType'];
+$seniors = $_POST['seniors'];
+$adults = $_POST['adults'];
+$children = $_POST['children'];
+$partyPlan = $_POST['plan'];
+$guests = $_POST['guests'];
+
+if ($orderType == "ticket") {
+    $price = ($adults * 10) + (($seniors + $children) * 6);
+} else {
+    // Calculate the price of the party
+    if ($partyPlan == "bronze") {
+        $price = 5 * $guests;
+        $duration = 2;
+    } elseif ($partyPlan == "silver") {
+        $price = 10 * $guests;
+        $duration = 3;
+    } else {
+        $price = 15 * $guests;
+        $duration = 4;
+    }
+}
+
 // The form on this page has been submitted
 if (isset($_POST['submitted'])) {
 
-    $orderType = $_POST['orderType'];
-    $seniors = $_POST['seniors'];
-    $adults = $_POST['adults'];
-    $children = $_POST['children'];
     $ticketDate = $_POST['ticket-date'];
-    $partyPlan = $_POST['party-plan'];
-    $guests = $_POST['guests'];
     $date = $_POST['date'];
     $time = $_POST['time'];
 
@@ -44,8 +64,6 @@ if (isset($_POST['submitted'])) {
 
     if ($orderType == "ticket") {
 // Create a new ticket order
-
-        $price = ($adults * 10) + (($seniors + $children) * 6);
 
         $query = "INSERT INTO `fbla` . `tickets` (`fullName`, `email`, `cardNumber`, `expirationMonth`, `expirationYear`, `cvv`, `date`, `seniors`, `adults`, `children`, `price`) 
                 VALUES('" . $fullName . "', '" . $email . "', '" . $cardNumber . "', '" . $expirationMonth . "', '" . $expirationYear . "', '" . $cvv . "', '" . $ticketDate . "', '" . $seniors . "', '" . $adults . "', '" . $children . "', '" . $price . "')";
@@ -88,18 +106,6 @@ if (isset($_POST['submitted'])) {
 
     } else if ($orderType == "party") {
 
-        // Calculate the price of the party
-        if ($partyPlan == "bronze") {
-            $price = 5 * $guests;
-            $duration = 2;
-        } elseif ($partyPlan == "silver") {
-            $price = 10 * $guests;
-            $duration = 3;
-        } else {
-            $price = 15 * $guests;
-            $duration = 4;
-        }
-
         // Create a new party order
         $query = "INSERT INTO `fbla`.`parties` (`fullName`, `email`, `cardNumber`, `expirationMonth`, `expirationYear`, `cvv`, `plan`, `guests`, `date`, `time`, `price`) 
                   VALUES ('" . $fullName . "', '" . $email . "', '" . $cardNumber . "', '" . $expirationMonth . "', '" . $expirationYear . "', '" . $cvv . "', '" . $partyPlan . "', '" . $guests . "', '" . $date . "', '" . $time . "', '" . $price . "')";
@@ -110,26 +116,31 @@ if (isset($_POST['submitted'])) {
         $result = mysqli_query($link, $query);
         $row = mysqli_fetch_assoc($result);
 
+        // Make time human-readable
+        $suffix = intval($row['time']) >= 12 ? ":00p" : ":00a";
+        $hours = ((intval($row['time']) + 11) % 12 + 1) . $suffix;
+
         // Send their party details to their email
         $mail->addAddress($row['email']);
         $mail->Subject = "Your Party";
         $mail->Body = "
         Hello " . $row['fullName'] . ",
         <br><br>
-        Your party has been successfully booked. In order for your guests to be allowed to the party, please tell them your party ID which they will present to us at the door.<br>
-        Your party ID is . " . $row['id'] . ".<br><br>
+        Your party has been successfully booked. In order for your guests to be allowed to the party, please tell them your party ID which they will present to us at the door.<br><br>
+        <b>Your party ID is #" . $row['id'] . ".</b><br><br>
+        
         If you are the party organizer, <b>print this email</b> and show it to us at the door. Please arrive 15 minutes early so that we may set up your party.<br>
         Thank you for choosing Family FunQuest.
         <br><br>
         Have fun!<br>
         - Family FunQuest
         <hr>
-        <b>Party ID:</b> " . $row['id'] . "<br>
+        <b>Party ID:</b> #" . $row['id'] . "<br>
         <b>Guests #:</b> " . $row['guests'] . "<br>
         <b>Date:</b> " . $row['date'] . "<br>
-        <b>Time:</b> " . $row['time'] . "<br>
-        <b>Duration:</b> " . $duration . "<br>
-        <b>Price:</b> " . $row['price'] . "<br>
+        <b>Time:</b> " . $hours . "<br>
+        <b>Duration:</b> " . $duration . " hours<br>
+        <b>Price:</b> $" . $row['price'] . "00<br>
         <hr>
         ";
         $success = $mail->send();
@@ -195,37 +206,37 @@ if (isset($_POST['submitted'])) {
 </div>
 <nav class="navbar navbar-fixed-top" style="position: fixed; top: 0px; margin-top: 0px; opacity: 1;">
     <div class="container">
-        <!--Brand and toggle get grouped for better mobile display-->
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only"> Toggle navigation </span>
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="../img/logo-active.png" data-active-url="../img/logo-active.png"
-                                                  alt=""></a>
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" data-active-url="../img/logo.png" alt=""></a>
         </div>
-        <!--Collect the nav links, forms, and other content for toggling-->
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-nav">
-                <li class=""><a href="/"> Home</a></li>
-                <li><a href="/#services"> Services</a></li>
-                <li class="active"><a href="/activities"> Activities</a></li>
-                <li><a href="/parties"> Parties</a></li>
-                <li><a href="/snacks"> Snacks</a></li>
-                <li><a href="/account" class="btn btn-blue"> Your Account </a></li>
+                <li class=""><a href="/">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/activities">Activities</a></li>
+                <li><a href="/parties">Parties</a></li>
+                <li><a href="/snacks">Snacks</a></li>
+                <li><a href="/tickets" class="btn btn-blue">Buy Tickets</a></li>
             </ul>
         </div>
-        <!-- /.navbar - collapse-->
+        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container - fluid-->
+    <!-- /.container-fluid -->
 </nav>
 
 <section class="section section-padded">
     <div class="container">
-        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+
+        <form id="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
             <input type="hidden" name="submitted" value="true">
             <input type="hidden" name="orderType" value="<?php echo $_POST['orderType']; ?>">
@@ -235,34 +246,35 @@ if (isset($_POST['submitted'])) {
             <input type="hidden" name="children" value="<?php echo $_POST['children']; ?>">
             <input type="hidden" name="ticket-date" value="<?php echo $_POST['ticket-date']; ?>">
 
-            <input type="hidden" name="party-plan" value="<?php echo $_POST['plan']; ?>">
+            <input type="hidden" name="plan" value="<?php echo $_POST['plan']; ?>">
             <input type="hidden" name="guests" value="<?php echo $_POST['guests']; ?>">
             <input type="hidden" name="date" value="<?php echo $_POST['date']; ?>">
             <input type="hidden" name="time" value="<?php echo $_POST['time']; ?>">
 
             <h2> Payment Information </h2>
+            <h3>Fill out the following form to complete your transaction of $<?php echo $price; ?>.00 dollars.</h3>
             <br>
 
             <h3> Cardholder Information </h3>
             <input name="full_name" id="full_name" type="text" class="form-control" placeholder="Name (ex. John Doe)"
-                   autofocus>
-            <input name="email" id="email" type="text" class="form-control" placeholder="Email">
+                   data-parsley-required="true" autofocus>
+            <input name="email" id="email" type="text" class="form-control" placeholder="Email" data-parsley-required="true">
 
             <br>
             <h3> Card Details </h3>
             <input name="card_number" id="card_number" type="text" class="form-control"
-                   placeholder="Credit Card Number">
+                   placeholder="Credit Card Number" data-parsley-required="true">
             <div>
                 <div style="width: 60%; float: left;">
                     <input name="expiration-month" id="expiration-month" type="text" class="form-control"
-                           placeholder="Expiration Month">
+                           placeholder="Expiration Month" data-parsley-required="true">
                 </div>
                 <div style="width: 40%; float: right;">
                     <input name="expiration-year" id="expiration-year" type="text" class="form-control"
-                           placeholder="Year">
+                           placeholder="Year" data-parsley-required="true">
                 </div>
             </div>
-            <input name="cvv" id="cvv" type="text" class="form-control" placeholder="Card CVV Security Code">
+            <input name="cvv" id="cvv" type="text" class="form-control" placeholder="Card CVV Security Code" data-parsley-required="true">
 
             <br>
             <button name="Submit" id="submit" class="btn btn-lg btn-blue btn-block" type="submit"> Complete order
@@ -276,15 +288,8 @@ if (isset($_POST['submitted'])) {
     <div class="container">
         <div class="row bottom-footer text-center-mobile">
             <div class="col-sm-8">
-                <p>&copy; <?php echo date("Y"); ?> All Rights Reserved. Theme based on a theme by Luka Cvetinovic,
-                    modified with permission by the group.</p>
-            </div>
-            <div class="col-sm-4 text-right text-center-mobile">
-                <ul class="social-footer">
-                    <li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                </ul>
+                <p>&copy; <?php echo date("Y"); ?> Family FunQuest. This business is imaginary and made for the <a
+                        href="http://pafbla.org">FBLA</a> competition.</p>
             </div>
         </div>
     </div>
@@ -302,7 +307,21 @@ if (isset($_POST['submitted'])) {
 <script src="../js/wow.min.js"></script>
 <script src="../js/typewriter.js"></script>
 <script src="../js/jquery.onepagenav.js"></script>
+<script src="../js/parsley.min.js"></script>
 <script src="../js/main.js"></script>
+
+<script>
+    $('#form').parsley({
+        trigger: 'change',
+        successClass: "has-success",
+        errorClass: "has-error",
+        classHandler: function (el) {
+            return el.$element.closest('.form-group'); //working
+        },
+        errorsWrapper: '<div class="invalid-message"></div>',
+        errorTemplate: '<span class="help-block"></span>'
+    });
+</script>
 </body>
 
 </html>
