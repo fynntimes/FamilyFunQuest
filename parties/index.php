@@ -93,13 +93,12 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="team text-center">
-                    <div class="cover" style="background:url('../img/team/team-cover1.jpg'); background-size:cover;">
+                    <div class="cover" style="background:url('http://bigblast.com.au/wp-content/uploads/2014/06/vc_img1-400x300.jpg'); background-size:cover;">
                         <div class="overlay text-center">
                             <h3 class="white">$5.00 per guest</h3>
                             <h5 class="light light-white">2 hours</h5>
                         </div>
                     </div>
-                    <img src="../img/team/team3.jpg" alt="Team Image" class="avatar">
                     <div class="title">
                         <h4>Bronze Package</h4>
                         <h5 class="muted regular">Our most affordable plan. With 2 hours of party time, enjoy a brief
@@ -110,13 +109,12 @@
             </div>
             <div class="col-md-4">
                 <div class="team text-center">
-                    <div class="cover" style="background:url('../img/team/team-cover2.jpg'); background-size:cover;">
+                    <div class="cover" style="background:url('http://images.agoramedia.com/wte3.0/gcms/pg-birthday-party-themes-children-at-party-full.jpg'); background-size:cover;">
                         <div class="overlay text-center">
                             <h3 class="white">$10.00 per guest</h3>
                             <h5 class="light light-white">3 hours</h5>
                         </div>
                     </div>
-                    <img src="../img/team/team1.jpg" alt="Team Image" class="avatar">
                     <div class="title">
                         <h4>Silver Package</h4>
                         <h5 class="muted regular">Enjoy a free personalized birthday cake along with three hours of
@@ -127,13 +125,12 @@
             </div>
             <div class="col-md-4">
                 <div class="team text-center">
-                    <div class="cover" style="background:url('../img/team/team-cover3.jpg'); background-size:cover;">
+                    <div class="cover" style="background:url('http://www.happychildhoods.org/Lima/Lima_Oct04/136_3695_group.jpg'); background-size:cover;">
                         <div class="overlay text-center">
                             <h3 class="white">$15.00 per guest</h3>
                             <h5 class="light light-white">4 hours</h5>
                         </div>
                     </div>
-                    <img src="../img/team/team2.jpg" alt="Team Image" class="avatar">
                     <div class="title">
                         <h4>Gold Package</h4>
                         <h5 class="muted regular">Enjoy the ultimate party experience with two personalized cakes and
