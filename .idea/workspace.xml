@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/BlueFusion_Ballocity-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/android-chrome-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/android-chrome-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/apple-touch-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/apple-touch-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/mstile-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/mstile-310x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicons/mstile-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/il_fullxfull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pricing1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pricing2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/table-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/table-2-hover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/table-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/table-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team/team-cover1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team/team-cover2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team/team-cover3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team/team1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team/team2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team/team3.jpg" afterPath="" />
+    <list default="true" id="6cfadd54-6a51-4223-beee-78e2320c4515" name="Default" comment="Fixed emailing">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/android-chrome-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/android-chrome-512x512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicons/safari-pinned-tab.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payment/index.php" afterPath="$PROJECT_DIR$/payment/index.php" />
     </list>
     <ignored path="FamilyFunQuest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+            <state relative-caret-position="375">
+              <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#center#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -90,30 +65,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/payment/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+            <state relative-caret-position="195">
+              <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
               <folding>
-                <marker date="1480979664000" expanded="true" signature="1609:1814" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:1815" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:1911" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:1927" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:1950" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:1970" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:1989" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:2010" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:2027" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="1609:2028" ph="INSERT INTO `fbla` . `tickets`... " />
-                <marker date="1480979664000" expanded="true" signature="2086:2125" ph="SELECT `id` tickets" />
-                <marker date="1480979664000" expanded="true" signature="2086:2130" ph="SELECT `id` tickets" />
-                <marker date="1480979664000" expanded="true" signature="2086:2146" ph="SELECT `id` tickets" />
-                <marker date="1480979664000" expanded="true" signature="3599:3970" ph="INSERT INTO `fbla`.`parties`... " />
-                <marker date="1480979664000" expanded="true" signature="3599:4003" ph="INSERT INTO `fbla`.`parties`... " />
-                <marker date="1480979664000" expanded="true" signature="4086:4140" ph="SELECT * FRO... parties" />
-                <marker date="1480979664000" expanded="true" signature="4086:4155" ph="SELECT * FRO... parties" />
-                <marker date="1480979664000" expanded="true" signature="4086:4169" ph="SELECT * FRO... parties" />
+                <marker date="1480983227000" expanded="true" signature="1497:1693" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1694" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1790" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1806" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1829" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1849" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1868" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1889" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1906" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1497:1907" ph="INSERT INTO `fbla` . `tickets`... " />
+                <marker date="1480983227000" expanded="true" signature="1965:2004" ph="SELECT `id` tickets" />
+                <marker date="1480983227000" expanded="true" signature="1965:2009" ph="SELECT `id` tickets" />
+                <marker date="1480983227000" expanded="true" signature="1965:2025" ph="SELECT `id` tickets" />
+                <marker date="1480983227000" expanded="true" signature="3363:3727" ph="INSERT INTO `fbla`.`parties`... " />
+                <marker date="1480983227000" expanded="true" signature="3363:3760" ph="INSERT INTO `fbla`.`parties`... " />
+                <marker date="1480983227000" expanded="true" signature="3843:3897" ph="SELECT * FRO... parties" />
+                <marker date="1480983227000" expanded="true" signature="3843:3912" ph="SELECT * FRO... parties" />
+                <marker date="1480983227000" expanded="true" signature="3843:3926" ph="SELECT * FRO... parties" />
               </folding>
             </state>
           </provider>
@@ -201,8 +176,8 @@
         <option value="$PROJECT_DIR$/tickets/ticketconf.php" />
         <option value="$PROJECT_DIR$/parties/partyconf.php" />
         <option value="$PROJECT_DIR$/parties/index.php" />
-        <option value="$PROJECT_DIR$/payment/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/payment/index.php" />
       </list>
     </option>
   </component>
@@ -274,7 +249,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="payment" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,7 +463,7 @@
       <workItem from="1480775105420" duration="13962000" />
       <workItem from="1480880760092" duration="7383000" />
       <workItem from="1480889081131" duration="263000" />
-      <workItem from="1480900954621" duration="13806000" />
+      <workItem from="1480900954621" duration="15597000" />
     </task>
     <task id="LOCAL-00001" summary="Customer form updating">
       <created>1479945693795</created>
@@ -679,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480980150906</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Favicon fix">
+      <created>1480980487760</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1480980487760</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58860000" />
+    <option name="totallyTimeSpent" value="60651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="991" extended-state="0" />
@@ -742,7 +724,8 @@
     <MESSAGE value="Party booking now works" />
     <MESSAGE value="Various UI refinements" />
     <MESSAGE value="Slight changes to home design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slight changes to home design" />
+    <MESSAGE value="Favicon fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Favicon fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,33 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payment/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
-          <folding>
-            <marker date="1480979664000" expanded="true" signature="1609:1814" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:1815" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:1911" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:1927" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:1950" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:1970" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:1989" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:2010" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:2027" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="1609:2028" ph="INSERT INTO `fbla` . `tickets`... " />
-            <marker date="1480979664000" expanded="true" signature="2086:2125" ph="SELECT `id` tickets" />
-            <marker date="1480979664000" expanded="true" signature="2086:2130" ph="SELECT `id` tickets" />
-            <marker date="1480979664000" expanded="true" signature="2086:2146" ph="SELECT `id` tickets" />
-            <marker date="1480979664000" expanded="true" signature="3599:3970" ph="INSERT INTO `fbla`.`parties`... " />
-            <marker date="1480979664000" expanded="true" signature="3599:4003" ph="INSERT INTO `fbla`.`parties`... " />
-            <marker date="1480979664000" expanded="true" signature="4086:4140" ph="SELECT * FRO... parties" />
-            <marker date="1480979664000" expanded="true" signature="4086:4155" ph="SELECT * FRO... parties" />
-            <marker date="1480979664000" expanded="true" signature="4086:4169" ph="SELECT * FRO... parties" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/BlueFusion_Ballocity-2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1092,10 +1048,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        <state relative-caret-position="375">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
           <folding>
             <element signature="n#style#0;n#p#0;n#center#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+          <folding>
+            <marker date="1480983227000" expanded="true" signature="1497:1693" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1694" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1790" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1806" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1829" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1849" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1868" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1889" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1906" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1497:1907" ph="INSERT INTO `fbla` . `tickets`... " />
+            <marker date="1480983227000" expanded="true" signature="1965:2004" ph="SELECT `id` tickets" />
+            <marker date="1480983227000" expanded="true" signature="1965:2009" ph="SELECT `id` tickets" />
+            <marker date="1480983227000" expanded="true" signature="1965:2025" ph="SELECT `id` tickets" />
+            <marker date="1480983227000" expanded="true" signature="3363:3727" ph="INSERT INTO `fbla`.`parties`... " />
+            <marker date="1480983227000" expanded="true" signature="3363:3760" ph="INSERT INTO `fbla`.`parties`... " />
+            <marker date="1480983227000" expanded="true" signature="3843:3897" ph="SELECT * FRO... parties" />
+            <marker date="1480983227000" expanded="true" signature="3843:3912" ph="SELECT * FRO... parties" />
+            <marker date="1480983227000" expanded="true" signature="3843:3926" ph="SELECT * FRO... parties" />
           </folding>
         </state>
       </provider>

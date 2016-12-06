@@ -1,26 +1,19 @@
 <?php
 
 require '../php/database.php';
-require '../PHPMailer/PHPMailerAutoload.php';
 
 if (!isset($_POST['orderType']) || empty($_POST['orderType'])) {
     header("Location: /");
     exit;
 }
 
-// Set up PHPMailer
-$mail = new PHPMailer;
+// Set up mail
+$from = "booking@familyfunquest.com";
 
-$mail->isSMTP();
-$mail->Host = 'smtp.gmail.com';
-$mail->SMTPAuth = true;
-$mail->Username = 'familyfunquest@gmail.com';
-$mail->Password = 'ImranFaizaanAli786';
-$mail->SMTPSecure = 'ssl';
-$mail->Port = 465;
-
-$mail->setFrom('familyfunquest@gmail.com', 'Family FunQuest');
-$mail->isHTML(true);
+$headers = "From: <Family FunQuest> " . $from. "\r\n";
+$headers .= "Reply-To: <Family FunQuest>". $from . "\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // Prices
 
@@ -65,7 +58,7 @@ if (isset($_POST['submitted'])) {
     if ($orderType == "ticket") {
 // Create a new ticket order
 
-        $query = "INSERT INTO `fbla` . `tickets` (`fullName`, `email`, `cardNumber`, `expirationMonth`, `expirationYear`, `cvv`, `date`, `seniors`, `adults`, `children`, `price`) 
+        $query = "INSERT INTO `tickets` (`fullName`, `email`, `cardNumber`, `expirationMonth`, `expirationYear`, `cvv`, `date`, `seniors`, `adults`, `children`, `price`) 
                 VALUES('" . $fullName . "', '" . $email . "', '" . $cardNumber . "', '" . $expirationMonth . "', '" . $expirationYear . "', '" . $cvv . "', '" . $ticketDate . "', '" . $seniors . "', '" . $adults . "', '" . $children . "', '" . $price . "')";
         mysqli_query($link, $query);
 
@@ -74,9 +67,8 @@ if (isset($_POST['submitted'])) {
         $row = mysqli_fetch_assoc($result);
 
         // Send their ticket in an email
-        $mail->addAddress($row['email']);
-        $mail->Subject = "Your Tickets";
-        $mail->Body = "
+        $subject = "Your Tickets";
+        $message = "
             Hello " . $row['fullName'] . ",
             <br><br>
             This email will serve as the ticket for your whole group to Family FunQuest.
@@ -94,10 +86,7 @@ if (isset($_POST['submitted'])) {
             <b>Price:</b> $" . $row['price'] . ".00<br>
             <hr>
             ";
-        $success = $mail->send();
-        if (!$success) {
-            die("Email failed. " . $mail->ErrorInfo);
-        }
+        mail($row['email'], $subject, $message, $headers);
 
         // Reroute them to the success page
         $id = $row['id'];
@@ -107,7 +96,7 @@ if (isset($_POST['submitted'])) {
     } else if ($orderType == "party") {
 
         // Create a new party order
-        $query = "INSERT INTO `fbla`.`parties` (`fullName`, `email`, `cardNumber`, `expirationMonth`, `expirationYear`, `cvv`, `plan`, `guests`, `date`, `time`, `price`) 
+        $query = "INSERT INTO `parties` (`fullName`, `email`, `cardNumber`, `expirationMonth`, `expirationYear`, `cvv`, `plan`, `guests`, `date`, `time`, `price`) 
                   VALUES ('" . $fullName . "', '" . $email . "', '" . $cardNumber . "', '" . $expirationMonth . "', '" . $expirationYear . "', '" . $cvv . "', '" . $partyPlan . "', '" . $guests . "', '" . $date . "', '" . $time . "', '" . $price . "')";
         mysqli_query($link, $query);
 
@@ -121,9 +110,9 @@ if (isset($_POST['submitted'])) {
         $hours = ((intval($row['time']) + 11) % 12 + 1) . $suffix;
 
         // Send their party details to their email
-        $mail->addAddress($row['email']);
-        $mail->Subject = "Your Party";
-        $mail->Body = "
+        $to = $row['email'];
+        $subject = "Your Party";
+        $message = "
         Hello " . $row['fullName'] . ",
         <br><br>
         Your party has been successfully booked. In order for your guests to be allowed to the party, please tell them your party ID which they will present to us at the door.<br><br>
@@ -140,13 +129,10 @@ if (isset($_POST['submitted'])) {
         <b>Date:</b> " . $row['date'] . "<br>
         <b>Time:</b> " . $hours . "<br>
         <b>Duration:</b> " . $duration . " hours<br>
-        <b>Price:</b> $" . $row['price'] . "00<br>
+        <b>Price:</b> $" . $row['price'] . ".00<br>
         <hr>
         ";
-        $success = $mail->send();
-        if (!$success) {
-            die("Email failed. " . $mail->ErrorInfo);
-        }
+        mail($to, $subject, $message, $headers);
 
         // Reroute them to the success page
         $id = $row['id'];
